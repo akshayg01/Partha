@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 10.00.9200.16736"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable style="WIDTH: auto" cellPadding=0 align=center><TR class=runner-header><TD class=runner-top style="WIDTH: auto" align=center><TABLE align=left><TR><TD style="WIDTH: auto" bgColor=#ffffff><IMG src="images/logo.png"></TD></TR></TABLE>
+      <P align=center><FONT size=6><U>Acknowledgement</U></FONT></P></TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto"><HR noShade>
+
+      {BEGIN container_details}<TABLE class="runner-c runner-c-details" cellPadding=0><TR class="{$cheaderclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="{$cfooterclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_details}</TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto" align=center><TABLE cellSpacing=1 cellPadding=1 width="100%" border=0 bgcolor="#FFFFFF"><TR><TD><FONT 
+            size=2>Acknowledgement&nbsp;No:&nbsp;&nbsp;<B>{$ReceiptNumber_value}</B></FONT></TD>
+          <TD align=right><FONT size=2>Date:<B>{$PaymentDate_value}</B></FONT></TD></TR>
+        <TR><TD></TD>
+          <TD></TD></TR></TABLE></TD></TR>
+  <TR class=runner-body bgcolor="#FFFFFF"><TD style="WIDTH: auto"><HR noShade>
+      &nbsp; 
+      <P></P>
+      <P><FONT size=2><B>This is to acknowledge the receipt of post dated 
+      cheque# <U><EM>{$CheckNumber_value}</EM></U>&nbsp; 
+      worth&nbsp;</B></FONT><FONT size=2><B>&nbsp;Rs&nbsp;<U><EM>{$Total_value}</EM></U>&nbsp;(Rupees <U><EM>{$TotalInWords_value}</EM></U>&nbsp;&nbsp;only)&nbsp; 
+      </B></FONT><FONT size=2><B>drawn on&nbsp;<U><EM>{$CheckBank_value}</EM></U>&nbsp; bank, 
+      pertaining to the fees </B></FONT></P>
+      <P><FONT size=2><B></B></FONT>&nbsp;</P>
+      <P><FONT size=2><B>of Mr./Ms. <U><EM>{$FirstName_value}</EM></U>&nbsp;<U><EM>{$LastName_value}</EM></U>&nbsp;(<U><EM>{$EnrollmentNumber_value}</EM></U>)&nbsp; 
+      of class {$Class_value}.</B></FONT></P></TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto">&nbsp;</TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto">&nbsp;</TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto" align=center><TABLE cellSpacing=1 cellPadding=1 border=0><TR><TD style="WIDTH: 149px" colSpan=4><P align=center>{$displayDetailTable_vw_payment_acknowledgement_detail} 
+            </P></TD></TR>
+        <TR><TD style="WIDTH: 149px"></TD>
+          <TD style="WIDTH: 354px" width=354></TD>
+          <TD style="WIDTH: 300px"></TD>
+          <TD style="WIDTH: 119px"></TD></TR>
+        <TR><TD colSpan=4><TABLE cellSpacing=0 cellPadding=2 width="100%" border=0><TR><TD width=412 align=right><FONT size=2><B>GRAND 
+                  TOTAL</B>&nbsp;&nbsp;&nbsp;&nbsp;</FONT></TD>
+                <TD width=73 align=right><FONT size=2><B></B></FONT></TD>
+                <TD width=111 align=right><FONT size=2><B></B></FONT></TD>
+                <TD width=103 align=right><FONT size=2><FONT size=2><B>{$Total_value}</B></FONT></FONT></TD></TR></TABLE></TD></TR></TABLE></TD></TR>
+  <TR class=runner-body><TD style="WIDTH: auto">&nbsp;</TD></TR>
+  <TR class="runner-row style1"><TD class=runner-cl vAlign=baseline align=center><P><HR noShade>
+
+      <P></P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class="runner-row style1"><TD class=runner-cl align=center><TABLE style="WIDTH: 957px" cellSpacing=0 cellPadding=2 width="100%" 
+      border=0><TR><TD style="WIDTH: 281px" vAlign=top width="30%"><TABLE borderColor=#000000 cellSpacing=0 cellPadding=0 width="100%" 
+            border=1></TABLE></TD>
+          <TD style="WIDTH: 59px" vAlign=top width="5%"></TD>
+          <TD style="WIDTH: 614px"><TABLE cellSpacing=10 cellPadding=0 width="100%" border=0><TR><TD><P align=right><FONT size=2><I>For</I> <B>PARTHA Educational 
+                  Institutions</B></FONT><BR><BR><BR><FONT size=2>(Authorised 
+                  Signatory)</FONT></P></TD></TR></TABLE></TD></TR></TABLE></TD></TR>
+  <TR class="runner-row style1"><TD class=runner-cl align=center>&nbsp;</TD></TR>
+  <TR class="{$cfooterclass_pdf}"><TD class=runner-cl>&nbsp;</TD></TR>
+  <TR class="{$cfooterclass_pdf}"><TD class="runner-cc runner-bl runner-b-viewpdf" 
+      {$brickclass_viewpdf}><SPAN>{BEGIN pdflink_block}{END pdflink_block}</SPAN></TD></TR>
+  <TR class="{$cfooterclass_pdf}"><TD class=runner-cl>&nbsp;</TD></TR></TABLE>
+<DIV></DIV>
+{BEGIN container_view}{END container_view}
+{BEGIN container_details}<TABLE class="runner-c runner-c-details" cellPadding=0><TR class="{$cheaderclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  <TR class="{$cfooterclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_details}</TD></TR><TR 
+class=runner-body><TD class="runner-left {$blockclass_left}" 
+style="WIDTH: auto">&nbsp;</TD></TR> <TR class=runner-footer><TD 
+class=runner-bottom style="WIDTH: auto">&nbsp;</TD></TR></TABLE>{$footer}{END body} </BODY></HTML>
