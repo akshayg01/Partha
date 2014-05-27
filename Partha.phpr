@@ -56822,8 +56822,8 @@ $_SESSION["SenderID"] ="PARTHA";
 		<m_bUseBuiltInMailer>0</m_bUseBuiltInMailer>
 	</Registration>
 	<BuildInfo>
-		<m_nBuildTimeLow>896915808</m_nBuildTimeLow>
-		<m_nBuildTimeHigh>30370102</m_nBuildTimeHigh>
+		<m_nBuildTimeLow>784737712</m_nBuildTimeLow>
+		<m_nBuildTimeHigh>30374278</m_nBuildTimeHigh>
 		<nonProcessFiles>
 			<v>
 				<filename>C:\Program Files\PHPRunner6.2\source\classes\advancedsearchcontrol.php</filename>
@@ -57128,7 +57128,7 @@ $_SESSION["SenderID"] ="PARTHA";
 				<includes />
 			</v>
 		</nonProcessFiles>
-		<m_bCompressJs>1</m_bCompressJs>
+		<m_bCompressJs>0</m_bCompressJs>
 		<builtFiles>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\admin_members_list.php</filename>
@@ -57139,20 +57139,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\admin_rights_list.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\ug_rights.php</source>
+				<filename>D:\wamp\www\Projects\Partha\admin_users_export.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\admin_users_list.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\admin_users_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\admin_users_export.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\admin_users_print.php</filename>
@@ -57163,8 +57155,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\admin_users_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\admin_rights_list.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\ug_rights.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\batch_export.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\batch_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\batch_import.php</filename>
@@ -57175,10 +57179,6 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\batch_print.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\batch_search.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
@@ -57187,12 +57187,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\batch_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\buttonhandler.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\buttonhandler.php</source>
+				<filename>D:\wamp\www\Projects\Partha\batch_print.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\changepwd.php</filename>
@@ -57203,24 +57199,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\ciphcoding.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\addpage.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\addpage.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\advancedsearchcontrol.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\advancedsearchcontrol.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\addpage.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\addpage.php</source>
+				<filename>D:\wamp\www\Projects\Partha\buttonhandler.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\buttonhandler.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\button.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\button.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\charts.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\charts.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\cipherer.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\cipherer.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\charts.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\charts.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\CheckboxField.php</filename>
@@ -57251,12 +57251,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\FileFieldSingle.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\FileField.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\FileField.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\HiddenField.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\HiddenField.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\FileField.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\FileField.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\LookupTextField.php</filename>
@@ -57267,12 +57267,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\LookupField.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\PasswordField.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\PasswordField.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ReadOnlyField.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ReadOnlyField.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\PasswordField.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\PasswordField.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\TextAreaField.php</filename>
@@ -57335,6 +57335,10 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewDatetimeField.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\UserControl.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\UserControl.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewDocumentDownloadOldField.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewDocumentDownloadOldField.php</source>
 			</v>
@@ -57343,12 +57347,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewEmailHyperlinkField.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewFileDownloadField.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewFileDownloadField.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewFileField.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewFileField.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewFileDownloadField.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewFileDownloadField.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewHTMLField.php</filename>
@@ -57371,20 +57375,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewLookupWizardField.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewMapField.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewMapField.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewNumberField.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewNumberField.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewPercentField.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewPercentField.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewMapField.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewMapField.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\UserControl.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\UserControl.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewPercentField.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewPercentField.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewPhoneNumberField.php</filename>
@@ -57423,6 +57423,10 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\layout.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewUserControl.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewUserControl.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\listpage.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\listpage.php</source>
 			</v>
@@ -57439,20 +57443,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\listpage_embed.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\listpage_lookup.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\listpage_lookup.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\listpage_simple.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\listpage_simple.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\loginpage.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\loginpage.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\listpage_lookup.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\listpage_lookup.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\memberspage.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\memberspage.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\loginpage.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\loginpage.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\orderclause.php</filename>
@@ -57463,8 +57463,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\panelsearchcontrol.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\projectsettings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\projectsettings.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\memberspage.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\memberspage.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\reportlib.php</filename>
@@ -57479,8 +57479,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\runnerldap.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\runnerpage.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\runnerpage.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\projectsettings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\projectsettings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\searchclause.php</filename>
@@ -57491,16 +57491,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\classes\searchcontrol.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\controls\ViewUserControl.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\controls\ViewUserControl.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\searchpanel.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\searchpanel.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\searchpanellookup.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\classes\searchpanellookup.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\classes\searchpanel.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\classes\searchpanel.php</source>
+				<filename>D:\wamp\www\Projects\Partha\classes\runnerpage.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\classes\runnerpage.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\classes\searchpanelsimple.php</filename>
@@ -57559,12 +57559,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\course_fee_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\batch_add.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\course_fee_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\course_fee_import.php</filename>
@@ -57579,12 +57579,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\course_import.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\import.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\course_fee_search.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\course_import.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\import.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\course_list.php</filename>
@@ -57597,10 +57597,6 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\dchartdata.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\dchartdata.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\desktop.ini</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\source\desktop.ini</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\detreccount.php</filename>
@@ -57620,7 +57616,7 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\background.jpg</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\images\background.jpg</source>
+				<source>D:\Github\Partha\images\background.jpg</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\bullet.gif</filename>
@@ -57651,16 +57647,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\clock.gif</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\course_view.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\cross.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\cross.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\csv.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\csv.gif</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\dataPicker\calgrad.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\dataPicker\calgrad.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\dataPicker\callt.gif</filename>
@@ -57683,8 +57679,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\dataPicker\sprite.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\disable_fon.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\disable_fon.gif</source>
+				<filename>D:\wamp\www\Projects\Partha\images\dataPicker\calgrad.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\dataPicker\calgrad.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\down.gif</filename>
@@ -57695,8 +57691,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\excel.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\file.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\file.gif</source>
+				<filename>D:\wamp\www\Projects\Partha\images\disable_fon.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\disable_fon.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icon_copy.gif</filename>
@@ -57711,8 +57707,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\icon_delete.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icon_edit.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icon_edit.gif</source>
+				<filename>D:\wamp\www\Projects\Partha\images\file.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\file.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icon_edit_new.gif</filename>
@@ -57799,16 +57795,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\mpeg.png</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\course_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\mpg.png</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\mpg.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\pdf.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\pdf.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icon_edit.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icon_edit.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\png.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\png.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\pdf.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\pdf.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\powerpoint.png</filename>
@@ -57817,6 +57817,10 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\pps.png</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\pps.png</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\png.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\png.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\psd.png</filename>
@@ -57839,24 +57843,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\text.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\tif.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\tif.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\txt.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\txt.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\ttf.png</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\ttf.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\txt.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\txt.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\tif.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\tif.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\wav-32_32.png</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\wav-32_32.png</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\wav.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\wav.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\icons\wma.png</filename>
@@ -57867,12 +57867,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\icons\wmv.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\xls.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\xls.png</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\icons\zip.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\icons\zip.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\wav.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\wav.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\indicator.gif</filename>
@@ -57887,10 +57883,6 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\loading.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\course_view.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\login.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\login.gif</source>
 			</v>
@@ -57903,12 +57895,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\minus.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\mupload\glyphicons-halflings-white.png</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\mupload\glyphicons-halflings-white.png</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\xls.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\xls.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\mupload\loading.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\mupload\loading.gif</source>
+				<filename>D:\wamp\www\Projects\Partha\images\icons\zip.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\icons\zip.png</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\images\mupload\glyphicons-halflings-white.png</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\mupload\glyphicons-halflings-white.png</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\mupload\progressbar.gif</filename>
@@ -57955,6 +57951,10 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\report_icon.gif</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\images\rightalign.jpg</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\rightalign.jpg</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\search\close.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\search\close.gif</source>
 			</v>
@@ -57975,8 +57975,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\search\hideWin.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\rightalign.jpg</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\rightalign.jpg</source>
+				<filename>D:\wamp\www\Projects\Partha\images\search\search.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\search\search.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\search\searchWin.gif</filename>
@@ -57991,8 +57991,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\search\showWindowPin.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\search\search.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\search\search.gif</source>
+				<filename>D:\wamp\www\Projects\Partha\images\search\spliter.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\search\spliter.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\search\windowPin.gif</filename>
@@ -58063,10 +58063,6 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\ui\888888_256x240_icons_icons.png</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\search\spliter.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\search\spliter.gif</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\ui\aaaaaa_40x100_textures_01_flat_0.png</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\ui\aaaaaa_40x100_textures_01_flat_0.png</source>
 			</v>
@@ -58103,16 +58099,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\images\ui\ffffff_40x100_textures_02_glass_75.png</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\images\mupload\loading.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\mupload\loading.gif</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\up.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\up.gif</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\images\word.gif</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\images\word.gif</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\users.gif</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\images\users.gif</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\images\word.gif</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\images\word.gif</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\images\xml.gif</filename>
@@ -58123,16 +58123,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\course_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\admin_rights_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\admin_rights_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+				<filename>D:\wamp\www\Projects\Partha\course_fee_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\admin_users_variables.php</filename>
@@ -58147,16 +58143,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\appsettings.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\course_fee_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\admin_members_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\audit.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\audit.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\batch_events.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\batch_masterlist.php</filename>
@@ -58167,16 +58159,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\admin_rights_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\batch_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\batch_events.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\ciphererdes.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\ciphererdes.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\admin_members_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\Collection_Chart_variables.php</filename>
@@ -58199,15 +58195,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\cookies.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\batch_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\course_events.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\Collection_settings.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\batch_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
@@ -58221,6 +58213,10 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\course_masterprint.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\Collection_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\course_variables.php</filename>
@@ -58243,11 +58239,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\course.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\Collection_Chart_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\course_fee.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\course.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
@@ -58255,8 +58251,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\Collection_Chart_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\course_fee.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\dal\lu_payment_head.php</filename>
@@ -58267,11 +58263,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\msg_sms_template.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\partha_uggroups.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\partha_uggroups.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\msg_sms_template.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
@@ -58295,11 +58291,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\user.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\student.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dal\student.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\dal\user.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dal\table.php</source>
 			</v>
 			<v>
@@ -58311,16 +58307,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\dbconnection.my.mysqli.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\dbconnection.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\dbconnection.my.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\dbcommon.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dbcommon.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\dbconninfo.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\dbconninfo.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\dbconnection.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\dbconnection.my.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\dbfunctions.php</filename>
@@ -58343,12 +58339,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\displaymenu.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\errors.xml</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\errors.xml</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\emptypage.html</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\emptypage.html</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\errors.xml</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\errors.xml</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\export_functions.php</filename>
@@ -58356,19 +58352,23 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\header.php</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\header.php</source>
+				<source>D:\Github\Partha\tmp\visual\header.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\import_functions.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\import_functions.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\events.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\commonevents.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\jquery.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\common\jquery.js</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\json.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\json.js</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\events.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\commonevents.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\lang\English.js</filename>
@@ -58379,10 +58379,6 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\lang\lang.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\course_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\locale.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\locale.php</source>
 			</v>
@@ -58391,16 +58387,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\locking.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\jquery.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\common\jquery.js</source>
+				<filename>D:\wamp\www\Projects\Partha\include\loadfirst.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\common\loadfirst.js</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\lu_feeschedule_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\loadfirst.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\common\loadfirst.js</source>
+				<filename>D:\wamp\www\Projects\Partha\include\course_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\lu_payment_head_variables.php</filename>
@@ -58443,12 +58439,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\masterlist.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\payment_receipt_masterprint.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\msg_sms_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\payment_receipt_masterprint.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\payment_receipt_variables.php</filename>
@@ -58479,15 +58475,7 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\course_fee_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_payment_receipt.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_student_course.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
@@ -58495,11 +58483,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_student_course_payment_schedule.js</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_student_course.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_vw_payment_receipt.js</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_student_course_payment_schedule.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
@@ -58507,7 +58495,7 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_vw_student_course_batch.js</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_vw_payment_receipt.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
@@ -58515,16 +58503,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\events\pageevents_vw_student_course_batch.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\events\pageevents.js</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\course_fee_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\ymp.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\ymp.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\phpfunctions.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\phpfunctions.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\RunnerAll.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\RunnerAll.js</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\Service_Tax_Collection_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\phpfunctions.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\phpfunctions.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\student_course_events.php</filename>
@@ -58535,15 +58535,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\Service_Tax_Collection_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\student_course_payment_schedule_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\payment_receipt_settings.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\Service_Tax_Collection_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
@@ -58551,8 +58547,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\student_events.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\payment_receipt_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\student_masterlist.php</filename>
@@ -58563,15 +58559,15 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\runnerJS\RunnerAll.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\common\runnerJS\RunnerAll.js</source>
+				<filename>D:\wamp\www\Projects\Partha\include\student_events.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\student_New_Enrollment_variables.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\student_New_Enrollment_settings.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\student_course_payment_schedule_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
@@ -58579,7 +58575,7 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\student_course_payment_schedule_settings.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\include\student_New_Enrollment_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
@@ -58599,16 +58595,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\ui.core.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\student_Out_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
+				<filename>D:\wamp\www\Projects\Partha\include\ui.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\common\ui.js</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\ui.resizable.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\common\ui.resizable.js</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\ui.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\common\ui.js</source>
+				<filename>D:\wamp\www\Projects\Partha\include\student_Out_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\user_variables.php</filename>
@@ -58643,16 +58639,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\vw_payment_acknowledgement_masterlist.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\masterlist.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\student_course_settings.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\vw_payment_acknowledgement_masterprint.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\masterprint.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\vw_payment_acknowledgement_masterlist.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\masterlist.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\vw_payment_acknowledgement_variables.php</filename>
@@ -58699,12 +58695,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\include\variables.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\vw_pending_check_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\vw_student_course_batch_events.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\include\events.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\include\vw_pending_check_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\include\vw_student_course_batch_variables.php</filename>
@@ -58823,12 +58819,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\libs\gif.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\include\vw_student_course_payment_schedule_settings.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\libs\js\AnyChart.js</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\libs\js\AnyChart.js</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\libs\js\AnyChartHTML5.js</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\libs\js\AnyChartHTML5.js</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\libs\oleread.inc</filename>
@@ -58879,8 +58875,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\libs\js\AnyChartHTML5.js</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\libs\js\AnyChartHTML5.js</source>
+				<filename>D:\wamp\www\Projects\Partha\include\vw_student_course_payment_schedule_settings.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\include\settings.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\lu_payment_head_edit.php</filename>
@@ -58935,7 +58931,7 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\msg_sms_add.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\lu_feeschedule_add.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
@@ -58943,20 +58939,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_export.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
+				<filename>D:\wamp\www\Projects\Partha\lu_payment_head_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_import.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\import.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_list.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
+				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_export.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_print.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_list.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_search.php</filename>
@@ -58967,24 +58967,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\msg_sms_view.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\add2.css</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\add21.css</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\layouts\add~add21.ly</source>
+				<source>D:\Github\Partha\tmp\layouts\add~add21.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\add21IE.css</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\layouts\add~add21.ly</source>
+				<source>D:\Github\Partha\tmp\layouts\add~add21.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\add21RTL.css</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\layouts\add~add21.ly</source>
+				<source>D:\Github\Partha\tmp\layouts\add~add21.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\add2IE.css</filename>
@@ -59183,6 +59179,10 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\msg_sms_view.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\pagestyles\report2RTL.css</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report2.ly</source>
 			</v>
@@ -59271,11 +59271,11 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\viewtab.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\lu_feeschedule_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+				<filename>D:\wamp\www\Projects\Partha\payment_receipt_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_add.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\msg_sms_add.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
@@ -59285,10 +59285,6 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\payment_receipt_print.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\payment_receipt_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\payment_receipt_search.php</filename>
@@ -59301,6 +59297,10 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Autoloader.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Autoloader.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\payment_receipt_view.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\CachedObjectStorage\APC.php</filename>
@@ -59321,10 +59321,6 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\CachedObjectStorage\Memcache.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\CachedObjectStorage\Memcache.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\lu_payment_head_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\CachedObjectStorage\Memory.php</filename>
@@ -59355,6 +59351,10 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\DateTime.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\DateTime.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\Exception.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\Exception.php</source>
 			</v>
@@ -59383,12 +59383,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\MathTrig.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\Statistical.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\Statistical.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\TextData.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\TextData.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\Statistical.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\Statistical.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Cell.php</filename>
@@ -59401,10 +59401,6 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Cell\DataType.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Cell\DataType.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\payment_receipt_view.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Cell\DataValidation.php</filename>
@@ -59443,16 +59439,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\IComparable.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Calculation\DateTime.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Calculation\DateTime.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\IOFactory.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\IOFactory.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\locale\cs\config</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\locale\cs\config</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\locale\cs\functions</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\locale\cs\functions</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\locale\da\config</filename>
@@ -59591,12 +59587,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Reader\Excel2007.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Reader\Excel5\Escher.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Reader\Excel5\Escher.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Reader\Excel5.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Reader\Excel5.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Reader\Excel5\Escher.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Reader\Excel5\Escher.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Reader\Gnumeric.php</filename>
@@ -59655,12 +59651,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Shared\Escher\DgContainer.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer\SpContainer.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer\SpContainer.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Shared\Escher\DgContainer\SpgrContainer.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Shared\Escher\DggContainer.php</filename>
@@ -59827,12 +59823,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Worksheet\Drawing\Shadow.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Worksheet\HeaderFooter.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Worksheet\HeaderFooter.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Worksheet\HeaderFooterDrawing.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Worksheet\HeaderFooterDrawing.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Worksheet\HeaderFooter.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Worksheet\HeaderFooter.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Worksheet\MemoryDrawing.php</filename>
@@ -59895,20 +59891,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\Rels.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\StringTable.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\StringTable.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\Style.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\Style.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\Theme.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\Theme.php</source>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\StringTable.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\StringTable.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\Workbook.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\Workbook.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\Theme.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel2007\Theme.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel2007\WriterPart.php</filename>
@@ -59943,20 +59939,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel5\Workbook.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel5\Worksheet.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel5\Worksheet.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel5\Xf.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel5\Xf.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\IWriter.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\IWriter.php</source>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Excel5\Worksheet.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Excel5\Worksheet.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\Serialized.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\Serialized.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\Writer\IWriter.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\Writer\IWriter.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\searchsuggest.php</filename>
@@ -59967,24 +59963,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\remind.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\plugins\PHPExcel\locale\cs\functions</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\plugins\PHPExcel\locale\cs\functions</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\Service_Tax_Collection_print.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\rprint.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\Service_Tax_Collection_export.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\Service_Tax_Collection_report.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\report.php</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\Service_Tax_Collection_export.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\Service_Tax_Collection_search.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\msg_sms_template_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\student_course_autocomplete.php</filename>
@@ -60015,16 +60011,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_course_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_export.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_list.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_export.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_print.php</filename>
@@ -60035,15 +60027,15 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_course_search.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_view.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_add.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\student_course_search.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\student_course_add.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
@@ -60075,16 +60067,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\rprint.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_Out_search.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\student_Out_report.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\report.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_search.php</filename>
+				<filename>D:\wamp\www\Projects\Partha\student_Out_search.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\student_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\student_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\student_course_payment_schedule_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\styles\default.css</filename>
@@ -60099,28 +60099,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\styles\defaultRTL.css</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_view.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_list.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\ug_members.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\student_search.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\search.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_search_panel_m.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\admin_rights_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\ug_rights.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\admin_members_search_panel_m.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_rights_search_panel.htm</filename>
@@ -60135,12 +60131,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_inline_add.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\admin_rights_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\ug_rights.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_inline_edit.htm</filename>
@@ -60151,12 +60147,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_list.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\student_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_search_panel.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_search_panel_m.htm</filename>
@@ -60167,28 +60167,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_search_panel.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\batch_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_inline_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\student_view.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\view.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\batch_import.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_inline_edit.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\batch_list.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\batch_list.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_inline_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_inline_edit.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\batch_masterlist.htm</filename>
@@ -60199,20 +60199,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\admin_users_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\batch_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\batch_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\changepwd.htm</filename>
@@ -60227,32 +60223,32 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\chart_preview.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_view.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_print.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_chart.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\chart2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\batch_view.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\Collection_export.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\batch_print.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\Collection_Chart_chart.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\chart2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\Collection_export.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Collection_search.htm</filename>
@@ -60271,12 +60267,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\Collection_report.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_edit.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\Collection_report.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_export.htm</filename>
@@ -60291,68 +60291,64 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_inline_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_inline_edit.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_inline_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\styles\Fancy1Blue_white</filename>
-				<source></source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\course_list.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_import.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_masterprint.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_search_panel.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\course_list.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_masterlist.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterlist.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_masterprint.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\styles\BoldBlue_white</filename>
+				<source></source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\error.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\error.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_search_panel.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\loadindicator.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\loadindicator.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\error.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\error.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\lu_feeschedule_inline_add.htm</filename>
@@ -60365,6 +60361,10 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\login.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\login2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\course_view.htm</filename>
@@ -60387,16 +60387,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\course_fee_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_import.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_edit.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_inline_edit.htm</filename>
@@ -60407,28 +60403,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_edit.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_feeschedule_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_print.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_search_panel.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_import.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_search.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_feeschedule_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_search_panel.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_print.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu_adminarea.htm</filename>
@@ -60479,8 +60475,8 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu_page_temporary.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu_quickjump.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu_quickjump.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu_simple.htm</filename>
@@ -60495,12 +60491,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu_temporary.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\menu.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\menu.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\lu_payment_head_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\menuitem_adminarea.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\menuitem_adminarea.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\menu.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\menu.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\menuitem_adminarea_horiz.htm</filename>
@@ -60527,20 +60527,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\menuitem_inline.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu_quickjump.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu_quickjump.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_import.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_search_panel.htm</filename>
@@ -60551,32 +60547,32 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu_horiz.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu_horiz.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_edit.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_import.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_inline_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_import.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_list.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_inline_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_inline_edit.htm</filename>
@@ -60587,10 +60583,6 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_print.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
@@ -60599,44 +60591,44 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_view.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_add.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\payment_receipt_add.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_print.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_view.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_view.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_add.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\payment_receipt_add.htm</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\payment_receipt_list.htm</source>
+				<source>D:\Github\Partha\tmp\visual\payment_receipt_list.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_masterlist.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterlist.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_edit.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_print.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\payment_receipt_print.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\msg_sms_template_list.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_print.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\payment_receipt_print.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_masterprint.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_edit.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\mainmenu.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\mainmenu.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_search_panel.htm</filename>
@@ -60645,6 +60637,10 @@ $_SESSION["SenderID"] ="PARTHA";
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_masterprint.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\remind.htm</filename>
@@ -60656,7 +60652,7 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_report.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\Service_Tax_Collection_report.htm</source>
+				<source>D:\Github\Partha\tmp\visual\Service_Tax_Collection_report.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_export.htm</filename>
@@ -60671,28 +60667,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_search_panel_m.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\payment_receipt_view.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_search_panel_m.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_add_Address1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_add_Address1.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_add_Guardian1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_add_Guardian1.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_add_Schooling1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_add_Schooling1.htm</source>
+				<source>D:\Github\Partha\tmp\visual\student_add_Address1.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_rprint.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report_print.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_add_Guardian1.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_add_Guardian1.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_add_Schooling1.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_add_Schooling1.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\Service_Tax_Collection_search.htm</filename>
@@ -60703,12 +60699,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\detailspreview.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_course_inline_edit.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_inline_add.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_course_inline_edit.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_detailspreview.htm</filename>
@@ -60720,11 +60716,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_add.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\layouts\add~add21.ly</source>
+				<source>D:\Github\Partha\tmp\layouts\add~add21.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_course_payment_schedule_list.htm</source>
+				<source>D:\Github\Partha\tmp\visual\student_course_payment_schedule_list.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_edit.htm</filename>
@@ -60751,76 +60747,76 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_print.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_print.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_edit.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_edit.htm</source>
+				<source>D:\Github\Partha\tmp\visual\student_edit.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_edit_Address1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_edit_Address1.htm</source>
+				<source>D:\Github\Partha\tmp\visual\student_edit_Address1.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_edit_Guardian1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_edit_Guardian1.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_edit_Schooling1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_edit_Schooling1.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_list.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_course_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_view.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
+				<source>D:\Github\Partha\tmp\visual\student_edit_Guardian1.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_report.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_New_Enrollment_report.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_list.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_masterprint.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_edit_Schooling1.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_edit_Schooling1.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_course_payment_schedule_view.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_course_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_report.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_New_Enrollment_report.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_masterlist.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterlist.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_search_panel.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_masterprint.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\masterprint.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_rprint.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report_print.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_search_panel.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_New_Enrollment_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_export.htm</filename>
@@ -60831,12 +60827,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report_print.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_search_panel_m.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_search_panel_m.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_search.htm</filename>
@@ -60847,24 +60843,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_view.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_view.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_view_Address1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_view_Address1.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\student_view_Guardian1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_view_Guardian1.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_Out_report.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\report2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_view.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_view.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_view_Guardian1.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_view_Guardian1.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\student_view_Address1.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\student_view_Address1.htm</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_view_Schooling1.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\student_view_Schooling1.htm</source>
+				<source>D:\Github\Partha\tmp\visual\student_view_Schooling1.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\topmenuitem_menupage_preview.htm</filename>
@@ -60883,24 +60879,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\import2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\user_add.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\user_edit.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\edit2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\user_add.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\add2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\user_inline_add.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_add.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\user_inline_edit.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_search.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\user_inline_edit.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\user_search_panel.htm</filename>
@@ -60947,28 +60943,28 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\inline_edit.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\user_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_search.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_search_panel.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_print.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\user_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_detail_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_payment_acknowledgement_detail_list.htm</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_search_panel.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_print.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\print.ly</source>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_detail_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\vw_payment_acknowledgement_detail_list.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_detail_search_panel.htm</filename>
@@ -60991,16 +60987,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_search_panel_m.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_course_feeschedule_list.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_view.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_payment_acknowledgement_view.htm</source>
+				<source>D:\Github\Partha\tmp\visual\vw_payment_acknowledgement_view.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_search_panel_m.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_acknowledgement_masterprint.htm</filename>
@@ -61024,19 +61020,19 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_receipt_view.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_payment_receipt_view.htm</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_check_export.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_check_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_pending_check_list.htm</source>
+				<source>D:\Github\Partha\tmp\visual\vw_payment_receipt_view.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_payment_receipt_search.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_check_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\vw_pending_check_list.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_check_export.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_check_search_panel.htm</filename>
@@ -61071,16 +61067,16 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_search.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_batch_export.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\export2.ly</source>
 			</v>
 			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_search.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
+			</v>
+			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_batch_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_student_course_batch_list.htm</source>
+				<source>D:\Github\Partha\tmp\visual\vw_student_course_batch_list.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_batch_import.htm</filename>
@@ -61091,24 +61087,24 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\templates\layouts\search2.ly</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_list.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_view.htm</filename>
-				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
-			</v>
-			<v>
-				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_payment_schedule_list.htm</filename>
-				<source>C:\Users\akshay\Google Drive\VDIC\Partha\tmp\visual\vw_student_course_payment_schedule_list.htm</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_batch_search_panel.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel.htm</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_batch_search_panel_m.htm</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\templates\search_panel_m.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_payment_schedule_list.htm</filename>
+				<source>D:\Github\Partha\tmp\visual\vw_student_course_payment_schedule_list.htm</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_view.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\view2.ly</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\templates\vw_pending_payment_list.htm</filename>
+				<source>C:\Program Files\PHPRunner6.2\templates\layouts\list2.ly</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\vw_student_course_payment_schedule_search_panel.htm</filename>
@@ -61143,12 +61139,12 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\user_edit.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\user_export.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\user_edit.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\user_search.php</filename>
@@ -61163,20 +61159,20 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\edit.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_import.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\import.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_export.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\export.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_list.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
+				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_import.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\import.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_print.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\print.php</source>
+			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_list.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_search.php</filename>
@@ -61267,31 +61263,15 @@ $_SESSION["SenderID"] ="PARTHA";
 				<source>C:\Program Files\PHPRunner6.2\source\list.php</source>
 			</v>
 			<v>
-				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_add.php</filename>
-				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
-			</v>
-			<v>
 				<filename>D:\wamp\www\Projects\Partha\user_add.php</filename>
 				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
 			</v>
+			<v>
+				<filename>D:\wamp\www\Projects\Partha\vw_course_feeschedule_add.php</filename>
+				<source>C:\Program Files\PHPRunner6.2\source\add.php</source>
+			</v>
 		</builtFiles>
-		<m_builtDBTables>
-			<v>batch</v>
-			<v>course</v>
-			<v>course_fee</v>
-			<v>lu_feeschedule</v>
-			<v>lu_payment_head</v>
-			<v>msg_sms</v>
-			<v>msg_sms_template</v>
-			<v>partha_uggroups</v>
-			<v>partha_ugmembers</v>
-			<v>partha_ugrights</v>
-			<v>payment_receipt</v>
-			<v>student</v>
-			<v>student_course</v>
-			<v>student_course_payment_schedule</v>
-			<v>user</v>
-		</m_builtDBTables>
+		<m_builtDBTables />
 	</BuildInfo>
 	<m_strAppUser>.:[BRD CULT]:.</m_strAppUser>
 	<m_controlLinks />
@@ -61332,7 +61312,7 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_strDBPath>db</m_strDBPath>
 	<m_bUseServerMapPath>1</m_bUseServerMapPath>
 	<m_strURL>http://localhost/projects/partha</m_strURL>
-	<m_compressJSFiles>1</m_compressJSFiles>
+	<m_compressJSFiles>0</m_compressJSFiles>
 	<m_bViewPDF>0</m_bViewPDF>
 	<m_strRTEType>BASIC</m_strRTEType>
 	<m_strTempDir>tmp</m_strTempDir>
@@ -61507,18 +61487,18 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_bOldMysqlLib>0</m_bOldMysqlLib>
 	<m_bWebReports>0</m_bWebReports>
 	<m_strWRAdminPassword />
-	<m_projectBuildNumber>1039</m_projectBuildNumber>
+	<m_projectBuildNumber>1047</m_projectBuildNumber>
 	<m_FTPlocation />
 	<m_FrontPagelocation />
 	<FTPFiles />
-	<m_lastDbSyncTime>1399360292</m_lastDbSyncTime>
+	<m_lastDbSyncTime>1401178211</m_lastDbSyncTime>
 	<m_arrRegisterTabs />
 	<m_CustomDBConnections />
 	<m_bDebug>0</m_bDebug>
 	<m_nDefaultDecimalDigits>2</m_nDefaultDecimalDigits>
 	<m_nDefaultInitialYearFactor>100</m_nDefaultInitialYearFactor>
 	<m_nDefaultLastYearFactor>10</m_nDefaultLastYearFactor>
-	<m_strCustomDBConnString />
+	<m_strCustomDBConnString></m_strCustomDBConnString>
 	<m_bBuildMobile>0</m_bBuildMobile>
 	<m_projectCRC>0</m_projectCRC>
 	<viewPluginsWithJS />
