@@ -1112,8 +1112,8 @@ OutDate</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>FirstName</m_strName>
 					<m_strSQLExpression>FirstName</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -1154,8 +1154,8 @@ OutDate</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -1164,26 +1164,26 @@ OutDate</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat></m_strViewFormat>
+							<m_strViewFormat />
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -1198,10 +1198,10 @@ OutDate</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -1222,19 +1222,19 @@ OutDate</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -1246,14 +1246,14 @@ OutDate</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
 								<text>Value %value% already exists</text>
@@ -1271,8 +1271,8 @@ OutDate</m_sqlHead>
 					<m_bCompatibilityMode>0</m_bCompatibilityMode>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
-					<m_strUploadFolder></m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_strUploadFolder />
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -1305,15 +1305,15 @@ OutDate</m_sqlHead>
 					<m_zones />
 					<m_searchOptions />
 					<m_bAllSearchOptionsSelected>1</m_bAllSearchOptionsSelected>
-					<m_strCodeUploadFolderLanguage></m_strCodeUploadFolderLanguage>
+					<m_strCodeUploadFolderLanguage />
 					<m_nMasterReportOrder>1</m_nMasterReportOrder>
 					<m_nMasterReportPrintOrder>1</m_nMasterReportPrintOrder>
 					<m_nMasterChartOrder>0</m_nMasterChartOrder>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -1751,8 +1751,8 @@ OutDate</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>Gender</m_strName>
 					<m_strSQLExpression>Gender</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -1793,8 +1793,8 @@ OutDate</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -1803,26 +1803,26 @@ OutDate</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat></m_strViewFormat>
+							<m_strViewFormat />
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -1839,8 +1839,8 @@ OutDate</m_sqlHead>
 							<m_nRows>100</m_nRows>
 							<m_strDefaultValue>"Male"</m_strDefaultValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -1864,19 +1864,19 @@ OutDate</m_sqlHead>
 									<v>Male</v>
 									<v>Female</v>
 								</m_arrListOfValues>
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>1</m_horizontalLayout>
 								<m_nControlType>4</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -1888,14 +1888,14 @@ OutDate</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Lookup wizard</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
 								<text>Value %value% already exists</text>
@@ -1914,7 +1914,7 @@ OutDate</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -1922,7 +1922,7 @@ OutDate</m_sqlHead>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -1969,8 +1969,8 @@ OutDate</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -3188,8 +3188,8 @@ OutDate</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>MobileNumber</m_strName>
 					<m_strSQLExpression>MobileNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -3230,8 +3230,8 @@ OutDate</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -3240,26 +3240,26 @@ OutDate</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
 							<m_nDecimalDigits>2</m_nDecimalDigits>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
-							<m_strViewFormat></m_strViewFormat>
+							<m_strViewFormat />
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -3274,10 +3274,10 @@ OutDate</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -3298,19 +3298,19 @@ OutDate</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -3322,14 +3322,14 @@ OutDate</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
 								<text>Value %value% already exists</text>
@@ -3348,7 +3348,7 @@ OutDate</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -3356,7 +3356,7 @@ OutDate</m_sqlHead>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -3388,8 +3388,8 @@ OutDate</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -9517,8 +9517,8 @@ OutDate</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>EnrollmentDate</m_strName>
 					<m_strSQLExpression>EnrollmentDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>0</m_bListPage>
@@ -9559,8 +9559,8 @@ OutDate</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -9569,18 +9569,18 @@ OutDate</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -9588,7 +9588,7 @@ OutDate</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Short Date</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -9605,10 +9605,10 @@ OutDate</m_sqlHead>
 							<m_nRows>100</m_nRows>
 							<m_strDefaultValue>Now()</m_strDefaultValue>
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strRegexMessage>
 							<m_bTimestamp>0</m_bTimestamp>
@@ -9627,19 +9627,19 @@ OutDate</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -9651,14 +9651,14 @@ OutDate</m_sqlHead>
 							<m_nLastYearFactor>1</m_nLastYearFactor>
 							<m_strEditFormat>Readonly</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
 								<text>Value %value% already exists</text>
@@ -9677,15 +9677,15 @@ OutDate</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -9717,8 +9717,8 @@ OutDate</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
@@ -10515,7 +10515,7 @@ OutDate</m_sqlHead>
 				<v>-1</v>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>0</m_bHighlightSearchResults>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<query>
 				<m_sql>SELECT
 ID,
@@ -19740,8 +19740,8 @@ StudentCourseID,
 ReceiptNumber,
 PaymentHeadID</m_sqlHead>
 			<m_sqlFrom>FROM student_course_payment_schedule</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlWhere />
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY ScheduleDate</m_strOrderBy>
 			<m_nType>0</m_nType>
@@ -19900,7 +19900,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -20108,8 +20108,8 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Fees</m_strName>
 					<m_strSQLExpression>Fees</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -20150,8 +20150,8 @@ PaymentHeadID</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -20160,18 +20160,18 @@ PaymentHeadID</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -20179,7 +20179,7 @@ PaymentHeadID</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Number</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -20194,12 +20194,12 @@ PaymentHeadID</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strRegexMessage>
 							<m_bTimestamp>0</m_bTimestamp>
@@ -20218,19 +20218,19 @@ PaymentHeadID</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -20242,17 +20242,17 @@ PaymentHeadID</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strDenyMessage>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
@@ -20268,7 +20268,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -20276,7 +20276,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -20308,16 +20308,16 @@ PaymentHeadID</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ServiceTax</m_strName>
 					<m_strSQLExpression>ServiceTax</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -20358,8 +20358,8 @@ PaymentHeadID</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -20368,18 +20368,18 @@ PaymentHeadID</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -20387,7 +20387,7 @@ PaymentHeadID</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Number</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -20402,12 +20402,12 @@ PaymentHeadID</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strRegexMessage>
 							<m_bTimestamp>0</m_bTimestamp>
@@ -20426,19 +20426,19 @@ PaymentHeadID</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -20450,17 +20450,17 @@ PaymentHeadID</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strDenyMessage>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
@@ -20476,7 +20476,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -20484,7 +20484,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -20516,16 +20516,16 @@ PaymentHeadID</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Total</m_strName>
 					<m_strSQLExpression>Total</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -20566,8 +20566,8 @@ PaymentHeadID</m_sqlHead>
 							<m_nImageBorder>0</m_nImageBorder>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -20576,18 +20576,18 @@ PaymentHeadID</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -20595,7 +20595,7 @@ PaymentHeadID</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Number</m_strViewFormat>
 							<m_page>view</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_nThumbWidth>72</m_nThumbWidth>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bShowListOfThumbnails>0</m_bShowListOfThumbnails>
@@ -20610,12 +20610,12 @@ PaymentHeadID</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
+							<m_strDefaultValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strRegexMessage>
 							<m_bTimestamp>0</m_bTimestamp>
@@ -20634,19 +20634,19 @@ PaymentHeadID</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
 								<m_arrLookupAutocompletionPairs />
@@ -20658,17 +20658,17 @@ PaymentHeadID</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>edit</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_pluginInitString />
+							<m_strAutoUpdateValue />
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strDenyMessage>
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
@@ -20684,7 +20684,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_bFiltered>0</m_bFiltered>
@@ -20692,7 +20692,7 @@ PaymentHeadID</m_sqlHead>
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>1</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -20724,15 +20724,15 @@ PaymentHeadID</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>0</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>0</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ScheduleDate</m_strName>
 					<m_strSQLExpression>ScheduleDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -20940,7 +20940,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Description</m_strName>
 					<m_strSQLExpression>Description</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -21148,7 +21148,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Status</m_strName>
 					<m_strSQLExpression>Status</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -21636,7 +21636,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>StudentID</m_strName>
 					<m_strSQLExpression>StudentID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -21844,7 +21844,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>StudentCourseID</m_strName>
 					<m_strSQLExpression>StudentCourseID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -22052,7 +22052,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ReceiptNumber</m_strName>
 					<m_strSQLExpression>ReceiptNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -22260,7 +22260,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>PaymentHeadID</m_strName>
 					<m_strSQLExpression>PaymentHeadID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -22714,14 +22714,14 @@ StudentCourseID,
 ReceiptNumber,
 PaymentHeadID</m_strFieldList>
 				<m_strFrom>FROM student_course_payment_schedule</m_strFrom>
-				<m_strWhere></m_strWhere>
+				<m_strWhere />
 				<m_strOrderBy>ORDER BY ScheduleDate</m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strTail />
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -22730,10 +22730,10 @@ PaymentHeadID</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -22746,9 +22746,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22759,9 +22759,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Fees</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22772,9 +22772,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ServiceTax</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22785,9 +22785,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Total</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22798,9 +22798,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ScheduleDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22811,9 +22811,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Description</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22824,9 +22824,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Status</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22837,9 +22837,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>StudentID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22850,9 +22850,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>StudentCourseID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22863,9 +22863,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ReceiptNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22876,9 +22876,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>PaymentHeadID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -22893,7 +22893,7 @@ PaymentHeadID</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student_course_payment_schedule</m_strName>
@@ -22911,12 +22911,12 @@ PaymentHeadID</m_strFieldList>
 								<val>PaymentHeadID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -22933,7 +22933,7 @@ PaymentHeadID</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -23433,8 +23433,8 @@ PaymentDate,
 StudentPaymentScheduleIDs,
 StudentID</m_sqlHead>
 			<m_sqlFrom>FROM payment_receipt</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlWhere />
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY PaymentDate</m_strOrderBy>
 			<m_nType>0</m_nType>
@@ -23589,7 +23589,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -23797,7 +23797,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>Fees</m_strName>
 					<m_strSQLExpression>Fees</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -24005,7 +24005,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>ServiceTax</m_strName>
 					<m_strSQLExpression>ServiceTax</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -24213,7 +24213,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>Total</m_strName>
 					<m_strSQLExpression>Total</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -24421,7 +24421,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>PaymentMode</m_strName>
 					<m_strSQLExpression>PaymentMode</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24633,7 +24633,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>CheckNumber</m_strName>
 					<m_strSQLExpression>CheckNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24841,7 +24841,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>CheckBank</m_strName>
 					<m_strSQLExpression>CheckBank</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -25049,7 +25049,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>CheckStatus</m_strName>
 					<m_strSQLExpression>CheckStatus</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -25574,7 +25574,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>ReceiptNumber</m_strName>
 					<m_strSQLExpression>ReceiptNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -25782,7 +25782,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>PaymentDate</m_strName>
 					<m_strSQLExpression>PaymentDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26291,7 +26291,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>StudentPaymentScheduleIDs</m_strName>
 					<m_strSQLExpression>StudentPaymentScheduleIDs</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -26499,7 +26499,7 @@ StudentID</m_sqlHead>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>StudentID</m_strName>
 					<m_strSQLExpression>StudentID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -26941,14 +26941,14 @@ PaymentDate,
 StudentPaymentScheduleIDs,
 StudentID</m_strFieldList>
 				<m_strFrom>FROM payment_receipt</m_strFrom>
-				<m_strWhere></m_strWhere>
+				<m_strWhere />
 				<m_strOrderBy>ORDER BY PaymentDate</m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strTail />
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -26957,10 +26957,10 @@ StudentID</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -26973,9 +26973,9 @@ StudentID</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -26986,9 +26986,9 @@ StudentID</m_strFieldList>
 						<m_sql>Fees</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -26999,9 +26999,9 @@ StudentID</m_strFieldList>
 						<m_sql>ServiceTax</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27012,9 +27012,9 @@ StudentID</m_strFieldList>
 						<m_sql>Total</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27025,9 +27025,9 @@ StudentID</m_strFieldList>
 						<m_sql>PaymentMode</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27038,9 +27038,9 @@ StudentID</m_strFieldList>
 						<m_sql>CheckNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27051,9 +27051,9 @@ StudentID</m_strFieldList>
 						<m_sql>CheckBank</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27064,9 +27064,9 @@ StudentID</m_strFieldList>
 						<m_sql>CheckStatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27077,9 +27077,9 @@ StudentID</m_strFieldList>
 						<m_sql>ReceiptNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27090,9 +27090,9 @@ StudentID</m_strFieldList>
 						<m_sql>PaymentDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27103,9 +27103,9 @@ StudentID</m_strFieldList>
 						<m_sql>StudentPaymentScheduleIDs</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27116,9 +27116,9 @@ StudentID</m_strFieldList>
 						<m_sql>StudentID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -27133,7 +27133,7 @@ StudentID</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>payment_receipt</m_strName>
@@ -27152,12 +27152,12 @@ StudentID</m_strFieldList>
 								<val>StudentID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -27174,7 +27174,7 @@ StudentID</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -33279,8 +33279,8 @@ StudentCourseID,
 ReceiptNumber,
 PaymentHeadID</m_sqlHead>
 			<m_sqlFrom>FROM student_course_payment_schedule</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlWhere />
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY ScheduleDate</m_strOrderBy>
 			<m_nType>1</m_nType>
@@ -33423,7 +33423,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -33631,7 +33631,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Fees</m_strName>
 					<m_strSQLExpression>Fees</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -33839,7 +33839,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ServiceTax</m_strName>
 					<m_strSQLExpression>ServiceTax</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -34047,7 +34047,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Total</m_strName>
 					<m_strSQLExpression>Total</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -34255,7 +34255,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ScheduleDate</m_strName>
 					<m_strSQLExpression>ScheduleDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -34463,7 +34463,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Description</m_strName>
 					<m_strSQLExpression>Description</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -34671,7 +34671,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Status</m_strName>
 					<m_strSQLExpression>Status</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -34883,7 +34883,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>StudentID</m_strName>
 					<m_strSQLExpression>StudentID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -35091,7 +35091,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>StudentCourseID</m_strName>
 					<m_strSQLExpression>StudentCourseID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -35299,7 +35299,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ReceiptNumber</m_strName>
 					<m_strSQLExpression>ReceiptNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -35507,7 +35507,7 @@ PaymentHeadID</m_sqlHead>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>PaymentHeadID</m_strName>
 					<m_strSQLExpression>PaymentHeadID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -35769,14 +35769,14 @@ StudentCourseID,
 ReceiptNumber,
 PaymentHeadID</m_strFieldList>
 				<m_strFrom>FROM student_course_payment_schedule</m_strFrom>
-				<m_strWhere></m_strWhere>
+				<m_strWhere />
 				<m_strOrderBy>ORDER BY ScheduleDate</m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strTail />
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -35785,10 +35785,10 @@ PaymentHeadID</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -35801,9 +35801,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35814,9 +35814,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Fees</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35827,9 +35827,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ServiceTax</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35840,9 +35840,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Total</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35853,9 +35853,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ScheduleDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35866,9 +35866,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Description</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35879,9 +35879,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>Status</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35892,9 +35892,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>StudentID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35905,9 +35905,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>StudentCourseID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35918,9 +35918,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>ReceiptNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35931,9 +35931,9 @@ PaymentHeadID</m_strFieldList>
 						<m_sql>PaymentHeadID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -35948,7 +35948,7 @@ PaymentHeadID</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student_course_payment_schedule</m_strName>
@@ -35966,12 +35966,12 @@ PaymentHeadID</m_strFieldList>
 								<val>PaymentHeadID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -35988,7 +35988,7 @@ PaymentHeadID</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -40239,7 +40239,7 @@ student.EnrollmentNumber</m_sqlHead>
 			<m_sqlFrom>FROM payment_receipt
 INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 			<m_sqlWhere>(payment_receipt.PaymentMode = 'Check' AND payment_receipt.CheckStatus = 'Cleared') OR payment_receipt.PaymentMode != 'Check'</m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY payment_receipt.PaymentDate, payment_receipt.ReceiptNumber</m_strOrderBy>
 			<m_nType>2</m_nType>
@@ -40363,7 +40363,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>PaymentDate</m_strName>
 					<m_strSQLExpression>payment_receipt.PaymentDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -40571,7 +40571,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>ReceiptNumber</m_strName>
 					<m_strSQLExpression>payment_receipt.ReceiptNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -40779,7 +40779,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>PaymentMode</m_strName>
 					<m_strSQLExpression>payment_receipt.PaymentMode</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -40991,7 +40991,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>CheckStatus</m_strName>
 					<m_strSQLExpression>payment_receipt.CheckStatus</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -41203,7 +41203,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>CheckNumber</m_strName>
 					<m_strSQLExpression>payment_receipt.CheckNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -41411,7 +41411,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>Fees</m_strName>
 					<m_strSQLExpression>payment_receipt.Fees</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -41619,7 +41619,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>ServiceTax</m_strName>
 					<m_strSQLExpression>payment_receipt.ServiceTax</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -41827,7 +41827,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>payment_receipt</m_strTable>
 					<m_strName>Total</m_strName>
 					<m_strSQLExpression>payment_receipt.Total</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -42035,7 +42035,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>FirstName</m_strName>
 					<m_strSQLExpression>student.FirstName</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -42243,7 +42243,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>LastName</m_strName>
 					<m_strSQLExpression>student.LastName</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -42451,7 +42451,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>EnrollmentNumber</m_strName>
 					<m_strSQLExpression>student.EnrollmentNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -42910,12 +42910,12 @@ student.EnrollmentNumber</m_strFieldList>
 INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 				<m_strWhere>(payment_receipt.PaymentMode = 'Check' AND payment_receipt.CheckStatus = 'Cleared') OR payment_receipt.PaymentMode != 'Check'</m_strWhere>
 				<m_strOrderBy>ORDER BY payment_receipt.PaymentDate, payment_receipt.ReceiptNumber</m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strTail />
 				<m_where>
 					<m_sql>(payment_receipt.PaymentMode = 'Check' AND payment_receipt.CheckStatus = 'Cleared') OR payment_receipt.PaymentMode != 'Check'</m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -42926,7 +42926,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 							<m_sql>payment_receipt.PaymentMode = 'Check' AND payment_receipt.CheckStatus = 'Cleared'</m_sql>
 							<m_parsed>1</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>1</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -42942,7 +42942,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 									<m_inBrackets>0</m_inBrackets>
 									<m_useAlias>0</m_useAlias>
 									<m_column>
-										<m_sql></m_sql>
+										<m_sql />
 										<m_parsed>0</m_parsed>
 										<type>SQL::SQLField</type>
 										<m_strTable>payment_receipt</m_strTable>
@@ -42960,7 +42960,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 									<m_inBrackets>0</m_inBrackets>
 									<m_useAlias>0</m_useAlias>
 									<m_column>
-										<m_sql></m_sql>
+										<m_sql />
 										<m_parsed>0</m_parsed>
 										<type>SQL::SQLField</type>
 										<m_strTable>payment_receipt</m_strTable>
@@ -42980,7 +42980,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>payment_receipt</m_strTable>
@@ -42992,10 +42992,10 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 					</m_contained>
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -43008,9 +43008,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.PaymentDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43021,9 +43021,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.ReceiptNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43034,9 +43034,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.PaymentMode</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43047,9 +43047,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.CheckStatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43060,9 +43060,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.CheckNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43073,9 +43073,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.Fees</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43086,9 +43086,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.ServiceTax</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43099,9 +43099,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>payment_receipt.Total</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43112,9 +43112,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>student.FirstName</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -43125,9 +43125,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>student.LastName</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -43138,9 +43138,9 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_sql>student.EnrollmentNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -43155,7 +43155,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>payment_receipt</m_strName>
@@ -43174,12 +43174,12 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 								<val>StudentID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -43194,7 +43194,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_INNERJOIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student</m_strName>
@@ -43244,7 +43244,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 								<val>OutDate</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
 							<m_sql>payment_receipt.StudentID = student.ID</m_sql>
 							<m_parsed>1</m_parsed>
@@ -43254,7 +43254,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>payment_receipt</m_strTable>
@@ -43272,7 +43272,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -43286,7 +43286,7 @@ INNER JOIN student ON payment_receipt.StudentID = student.ID</m_strFrom>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>payment_receipt</m_strTable>
@@ -57717,7 +57717,7 @@ INNER JOIN student_course ON student_course_payment_schedule.StudentCourseID = s
 LEFT OUTER JOIN course ON student_course.CourseID = course.ID
 LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 			<m_sqlWhere>(student_course_payment_schedule.Status = 'Pending')</m_sqlWhere>
-			<m_sqlTail></m_sqlTail>
+			<m_sqlTail />
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY student_course_payment_schedule.ScheduleDate</m_strOrderBy>
 			<m_nType>1</m_nType>
@@ -57843,7 +57843,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.ID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -58051,7 +58051,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Total</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.Total</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -58259,7 +58259,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>ScheduleDate</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.ScheduleDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -58467,7 +58467,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Description</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.Description</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -58675,7 +58675,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>Status</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.Status</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -58887,7 +58887,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>FirstName</m_strName>
 					<m_strSQLExpression>student.FirstName</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -59095,7 +59095,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>LastName</m_strName>
 					<m_strSQLExpression>student.LastName</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -59303,7 +59303,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student</m_strTable>
 					<m_strName>EnrollmentNumber</m_strName>
 					<m_strSQLExpression>student.EnrollmentNumber</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -59719,7 +59719,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>batch</m_strTable>
 					<m_strName>BatchCode</m_strName>
 					<m_strSQLExpression>batch.BatchCode</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -59927,7 +59927,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>PaymentHeadID</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.PaymentHeadID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -60135,7 +60135,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_sqlFrom>
 					<m_strTable>student_course_payment_schedule</m_strTable>
 					<m_strName>StudentID</m_strName>
 					<m_strSQLExpression>student_course_payment_schedule.StudentID</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -60767,7 +60767,7 @@ LEFT OUTER JOIN course ON student_course.CourseID = course.ID
 LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 				<m_strWhere>(student_course_payment_schedule.Status = 'Pending')</m_strWhere>
 				<m_strOrderBy>ORDER BY student_course_payment_schedule.ScheduleDate</m_strOrderBy>
-				<m_strTail></m_strTail>
+				<m_strTail />
 				<m_where>
 					<m_sql>student_course_payment_schedule.Status = 'Pending'</m_sql>
 					<m_parsed>1</m_parsed>
@@ -60777,7 +60777,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
 					<m_column>
-						<m_sql></m_sql>
+						<m_sql />
 						<m_parsed>0</m_parsed>
 						<type>SQL::SQLField</type>
 						<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60787,10 +60787,10 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -60803,9 +60803,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60816,9 +60816,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.Total</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60829,9 +60829,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.ScheduleDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60842,9 +60842,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.Description</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60855,9 +60855,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.Status</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60868,9 +60868,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student.FirstName</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -60881,9 +60881,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student.LastName</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -60894,9 +60894,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student.EnrollmentNumber</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -60909,7 +60909,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FieldListItem</type>
 						<m_alias>Course</m_alias>
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>course</m_strTable>
@@ -60920,9 +60920,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>batch.BatchCode</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>batch</m_strTable>
@@ -60933,9 +60933,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.PaymentHeadID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60946,9 +60946,9 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_sql>student_course_payment_schedule.StudentID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -60963,7 +60963,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student_course_payment_schedule</m_strName>
@@ -60981,12 +60981,12 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 								<val>PaymentHeadID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -61001,7 +61001,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_INNERJOIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student</m_strName>
@@ -61051,7 +61051,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 								<val>OutDate</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
 							<m_sql>student_course_payment_schedule.StudentID = student.ID</m_sql>
 							<m_parsed>1</m_parsed>
@@ -61061,7 +61061,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>student_course_payment_schedule</m_strTable>
@@ -61077,7 +61077,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_INNERJOIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student_course</m_strName>
@@ -61092,7 +61092,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 								<val>FeeScheduleID</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
 							<m_sql>student_course_payment_schedule.StudentCourseID = student_course.ID</m_sql>
 							<m_parsed>1</m_parsed>
@@ -61102,7 +61102,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>student_course_payment_schedule</m_strTable>
@@ -61118,7 +61118,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_LEFTJOIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>course</m_strName>
@@ -61128,7 +61128,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 								<val>Status</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
 							<m_sql>student_course.CourseID = course.ID</m_sql>
 							<m_parsed>1</m_parsed>
@@ -61138,7 +61138,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>student_course</m_strTable>
@@ -61154,7 +61154,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_LEFTJOIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>batch</m_strName>
@@ -61165,7 +61165,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 								<val>Status</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
 							<m_sql>student_course.BatchID = batch.ID</m_sql>
 							<m_parsed>1</m_parsed>
@@ -61175,7 +61175,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql></m_sql>
+								<m_sql />
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>student_course</m_strTable>
@@ -61193,7 +61193,7 @@ LEFT OUTER JOIN batch ON student_course.BatchID = batch.ID</m_strFrom>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student_course_payment_schedule</m_strTable>
@@ -65341,10 +65341,10 @@ GROUP BY EnrollmentDate
 			<m_sqlHead>SELECT EnrollmentDate,
 COUNT(ID) as EnrollmentCount</m_sqlHead>
 			<m_sqlFrom>FROM student</m_sqlFrom>
-			<m_sqlWhere></m_sqlWhere>
+			<m_sqlWhere />
 			<m_sqlTail>GROUP BY EnrollmentDate</m_sqlTail>
 			<m_bGroupBy>1</m_bGroupBy>
-			<m_strOrderBy></m_strOrderBy>
+			<m_strOrderBy />
 			<m_nType>2</m_nType>
 			<m_strOriginalTable>student</m_strOriginalTable>
 			<m_strDataSourceTable>student_New_Enrollment</m_strDataSourceTable>
@@ -65466,7 +65466,7 @@ COUNT(ID) as EnrollmentCount</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>EnrollmentDate</m_strName>
 					<m_strSQLExpression>EnrollmentDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
+					<m_strSQLAlias />
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -65671,7 +65671,7 @@ COUNT(ID) as EnrollmentCount</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable></m_strTable>
+					<m_strTable />
 					<m_strName>EnrollmentCount</m_strName>
 					<m_strSQLExpression>COUNT(ID)</m_strSQLExpression>
 					<m_strSQLAlias>EnrollmentCount</m_strSQLAlias>
@@ -65949,14 +65949,14 @@ GROUP BY EnrollmentDate
 				<m_strFieldList>EnrollmentDate,
 COUNT(ID) as EnrollmentCount</m_strFieldList>
 				<m_strFrom>FROM student</m_strFrom>
-				<m_strWhere></m_strWhere>
-				<m_strOrderBy></m_strOrderBy>
+				<m_strWhere />
+				<m_strOrderBy />
 				<m_strTail>GROUP BY EnrollmentDate</m_strTail>
 				<m_where>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -65965,10 +65965,10 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -65981,9 +65981,9 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 						<m_sql>EnrollmentDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -66003,7 +66003,7 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 							<m_strFunctionName>COUNT</m_strFunctionName>
 							<m_arguments>
 								<val>
-									<m_sql></m_sql>
+									<m_sql />
 									<m_parsed>0</m_parsed>
 									<type>SQL::SQLField</type>
 									<m_strTable>student</m_strTable>
@@ -66020,7 +66020,7 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student</m_strName>
@@ -66070,12 +66070,12 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 								<val>OutDate</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -66091,7 +66091,7 @@ COUNT(ID) as EnrollmentCount</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::GroupByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -66137,7 +66137,7 @@ COUNT(ID)</m_sqlHead>
 			<m_sqlWhere>OutDate is Not Null</m_sqlWhere>
 			<m_sqlTail>GROUP BY OutDate</m_sqlTail>
 			<m_bGroupBy>1</m_bGroupBy>
-			<m_strOrderBy></m_strOrderBy>
+			<m_strOrderBy />
 			<m_nType>2</m_nType>
 			<m_strOriginalTable>student</m_strOriginalTable>
 			<m_strDataSourceTable>student_Out</m_strDataSourceTable>
@@ -66259,8 +66259,8 @@ COUNT(ID)</m_sqlHead>
 					<m_strTable>student</m_strTable>
 					<m_strName>OutDate</m_strName>
 					<m_strSQLExpression>OutDate</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -66304,8 +66304,8 @@ COUNT(ID)</m_sqlHead>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -66315,18 +66315,18 @@ COUNT(ID)</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -66334,7 +66334,7 @@ COUNT(ID)</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Short Date</m_strViewFormat>
 							<m_page>report</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
@@ -66346,13 +66346,13 @@ COUNT(ID)</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
-							<m_strValidateAs></m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strValidateAs />
+							<m_strRegex />
 							<m_strRegexMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strRegexMessage>
 							<m_bTimestamp>0</m_bTimestamp>
@@ -66371,19 +66371,19 @@ COUNT(ID)</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -66395,18 +66395,18 @@ COUNT(ID)</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Date</m_strEditFormat>
 							<m_page>search</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
 							<m_strDenyMessage>
-								<text></text>
+								<text />
 								<nameType>Text</nameType>
 							</m_strDenyMessage>
 							<m_bAllowMultipleSelection>0</m_bAllowMultipleSelection>
@@ -66420,15 +66420,15 @@ COUNT(ID)</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -66459,16 +66459,16 @@ COUNT(ID)</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable></m_strTable>
+					<m_strTable />
 					<m_strName>OutCount</m_strName>
 					<m_strSQLExpression>COUNT(ID)</m_strSQLExpression>
-					<m_strSQLAlias></m_strSQLAlias>
-					<m_strTotalsType></m_strTotalsType>
+					<m_strSQLAlias />
+					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
 					<m_bListPage>1</m_bListPage>
@@ -66512,8 +66512,8 @@ COUNT(ID)</m_sqlHead>
 							<m_nThumbHeight>72</m_nThumbHeight>
 							<m_bhlNewWindow>0</m_bhlNewWindow>
 							<m_nhlDisplay>0</m_nhlDisplay>
-							<m_strhlParam></m_strhlParam>
-							<m_strFileCustomExpr></m_strFileCustomExpr>
+							<m_strhlParam />
+							<m_strFileCustomExpr />
 							<m_bShowThumbnail>0</m_bShowThumbnail>
 							<m_bShowFileSize>0</m_bShowFileSize>
 							<m_bShowIcon>1</m_bShowIcon>
@@ -66523,18 +66523,18 @@ COUNT(ID)</m_sqlHead>
 							<m_nMapWidth>300</m_nMapWidth>
 							<m_nMapHeight>225</m_nMapHeight>
 							<m_sMapZoom>15</m_sMapZoom>
-							<m_sAddressField></m_sAddressField>
-							<m_sLatField></m_sLatField>
-							<m_sLonField></m_sLonField>
-							<m_sMapDescription></m_sMapDescription>
-							<m_strhlPrefix></m_strhlPrefix>
-							<m_strFilename></m_strFilename>
-							<m_strCustomExpr></m_strCustomExpr>
+							<m_sAddressField />
+							<m_sLatField />
+							<m_sLonField />
+							<m_sMapDescription />
+							<m_strhlPrefix />
+							<m_strFilename />
+							<m_strCustomExpr />
 							<m_linkWord>
 								<text>Link</text>
 								<nameType>Text</nameType>
 							</m_linkWord>
-							<m_strTitleField></m_strTitleField>
+							<m_strTitleField />
 							<m_nVideoWidth>300</m_nVideoWidth>
 							<m_nVideoHeight>200</m_nVideoHeight>
 							<m_bRewindEnabled>0</m_bRewindEnabled>
@@ -66542,7 +66542,7 @@ COUNT(ID)</m_sqlHead>
 							<m_bFieldContainsFileURL>0</m_bFieldContainsFileURL>
 							<m_strViewFormat>Number</m_strViewFormat>
 							<m_page>report</m_page>
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 						</v>
 					</m_viewFormats>
@@ -66554,11 +66554,11 @@ COUNT(ID)</m_sqlHead>
 							<m_nSelectSize>1</m_nSelectSize>
 							<m_nCols>200</m_nCols>
 							<m_nRows>100</m_nRows>
-							<m_strDefaultValue></m_strDefaultValue>
-							<m_strAutoUpdateValue></m_strAutoUpdateValue>
+							<m_strDefaultValue />
+							<m_strAutoUpdateValue />
 							<m_bAutoUpdate>0</m_bAutoUpdate>
 							<m_strValidateAs>Number</m_strValidateAs>
-							<m_strRegex></m_strRegex>
+							<m_strRegex />
 							<m_strRegexMessage>
 								<text>The value is invalid</text>
 								<nameType>Text</nameType>
@@ -66579,19 +66579,19 @@ COUNT(ID)</m_sqlHead>
 							<m_pLookupObj>
 								<m_nLookupType>1</m_nLookupType>
 								<m_arrListOfValues />
-								<m_strTable></m_strTable>
-								<m_strLinkField></m_strLinkField>
-								<m_strDisplayField></m_strDisplayField>
-								<m_strOrderBy></m_strOrderBy>
+								<m_strTable />
+								<m_strLinkField />
+								<m_strDisplayField />
+								<m_strOrderBy />
 								<m_bDesc>0</m_bDesc>
 								<m_bUnique>0</m_bUnique>
 								<m_bAllowToAdd>0</m_bAllowToAdd>
 								<m_horizontalLayout>0</m_horizontalLayout>
 								<m_nControlType>0</m_nControlType>
 								<m_bUseCategory>0</m_bUseCategory>
-								<m_strCategoryFilterField></m_strCategoryFilterField>
-								<m_strCategoryControlField></m_strCategoryControlField>
-								<m_strWhere></m_strWhere>
+								<m_strCategoryFilterField />
+								<m_strCategoryControlField />
+								<m_strWhere />
 								<m_strWhereDotNetLanguage>cs</m_strWhereDotNetLanguage>
 								<m_bCustomDisplay>0</m_bCustomDisplay>
 								<m_nLinkFieldType>0</m_nLinkFieldType>
@@ -66603,13 +66603,13 @@ COUNT(ID)</m_sqlHead>
 							<m_nLastYearFactor>10</m_nLastYearFactor>
 							<m_strEditFormat>Text field</m_strEditFormat>
 							<m_page>search</m_page>
-							<m_strEditMask></m_strEditMask>
+							<m_strEditMask />
 							<m_MaxNumberOfFiles>1</m_MaxNumberOfFiles>
 							<m_MaxFileSize>0</m_MaxFileSize>
 							<m_TotalFilesSize>0</m_TotalFilesSize>
 							<m_bAutoupload>0</m_bAutoupload>
 							<m_allowedFileTypes />
-							<m_pluginInitString></m_pluginInitString>
+							<m_pluginInitString />
 							<m_strDotNetLanguage>cs</m_strDotNetLanguage>
 							<m_strAutoUpdateDotNetLanguage>cs</m_strAutoUpdateDotNetLanguage>
 							<m_bDenyDuplicates>0</m_bDenyDuplicates>
@@ -66628,15 +66628,15 @@ COUNT(ID)</m_sqlHead>
 					<m_bUploadCodeExpression>0</m_bUploadCodeExpression>
 					<m_bDeleteFile>0</m_bDeleteFile>
 					<m_strUploadFolder>files</m_strUploadFolder>
-					<m_codeUploadFolder></m_codeUploadFolder>
+					<m_codeUploadFolder />
 					<m_strCodeUploadFolderLanguage>cs</m_strCodeUploadFolderLanguage>
 					<m_bAbsolute>0</m_bAbsolute>
 					<m_bFiltered>0</m_bFiltered>
-					<m_strSearchOption></m_strSearchOption>
+					<m_strSearchOption />
 					<m_bSearchRequired>0</m_bSearchRequired>
 					<m_pFilterFormatObj>
 						<m_strFilterFormat>Values list</m_strFilterFormat>
-						<m_strFilterTotalsField></m_strFilterTotalsField>
+						<m_strFilterTotalsField />
 						<m_nFilterMultiselect>0</m_nFilterMultiselect>
 						<m_nFilterTotals>0</m_nFilterTotals>
 						<m_bHideControl>0</m_bHideControl>
@@ -66667,8 +66667,8 @@ COUNT(ID)</m_sqlHead>
 					<m_bMasterChartPage>0</m_bMasterChartPage>
 					<m_bMasterReportPage>1</m_bMasterReportPage>
 					<m_bMasterReportPrintPage>1</m_bMasterReportPrintPage>
-					<m_strParentFilter></m_strParentFilter>
-					<m_strChildFilter></m_strChildFilter>
+					<m_strParentFilter />
+					<m_strChildFilter />
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 			</m_arrFieldObj>
@@ -66746,7 +66746,7 @@ GROUP BY OutDate
 COUNT(ID)</m_strFieldList>
 				<m_strFrom>FROM student</m_strFrom>
 				<m_strWhere>OutDate is Not Null</m_strWhere>
-				<m_strOrderBy></m_strOrderBy>
+				<m_strOrderBy />
 				<m_strTail>GROUP BY OutDate</m_strTail>
 				<m_where>
 					<m_sql>OutDate is Not Null</m_sql>
@@ -66757,7 +66757,7 @@ COUNT(ID)</m_strFieldList>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
 					<m_column>
-						<m_sql></m_sql>
+						<m_sql />
 						<m_parsed>0</m_parsed>
 						<type>SQL::SQLField</type>
 						<m_strTable>student</m_strTable>
@@ -66767,10 +66767,10 @@ COUNT(ID)</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql></m_sql>
+					<m_sql />
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase></m_strCase>
+					<m_strCase />
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -66783,9 +66783,9 @@ COUNT(ID)</m_strFieldList>
 						<m_sql>OutDate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -66796,7 +66796,7 @@ COUNT(ID)</m_strFieldList>
 						<m_sql>COUNT(ID)</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_expr>
 							<m_sql>COUNT(ID)</m_sql>
 							<m_parsed>1</m_parsed>
@@ -66805,7 +66805,7 @@ COUNT(ID)</m_strFieldList>
 							<m_strFunctionName>COUNT</m_strFunctionName>
 							<m_arguments>
 								<val>
-									<m_sql></m_sql>
+									<m_sql />
 									<m_parsed>0</m_parsed>
 									<type>SQL::SQLField</type>
 									<m_strTable>student</m_strTable>
@@ -66822,7 +66822,7 @@ COUNT(ID)</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>student</m_strName>
@@ -66872,12 +66872,12 @@ COUNT(ID)</m_strFieldList>
 								<val>OutDate</val>
 							</m_columns>
 						</m_table>
-						<m_alias></m_alias>
+						<m_alias />
 						<m_joinon>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase></m_strCase>
+							<m_strCase />
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -66893,7 +66893,7 @@ COUNT(ID)</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::GroupByItem</type>
 						<m_column>
-							<m_sql></m_sql>
+							<m_sql />
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>student</m_strTable>
@@ -68345,217 +68345,217 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MobileNumber</m_strField>
 								<m_strLabel>Mobile Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GuardianName</m_strField>
 								<m_strLabel>Guardian Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GuardianMobile</m_strField>
 								<m_strLabel>Guardian Mobile</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GuardianEmail</m_strField>
 								<m_strLabel>Guardian Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AddressLine1</m_strField>
 								<m_strLabel>Address Line1</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AddressLine2</m_strField>
 								<m_strLabel>Address Line2</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>City</m_strField>
 								<m_strLabel>City</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>State</m_strField>
 								<m_strLabel>State</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PinCode</m_strField>
 								<m_strLabel>PIN Code</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Photo</m_strField>
 								<m_strLabel>Photo</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PhotoThumbnail</m_strField>
 								<m_strLabel>Photo Thumbnail</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Courses</m_strField>
 								<m_strLabel>Courses</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FeeScheduleID</m_strField>
 								<m_strLabel>Fee Schedule ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>DateOfBirth</m_strField>
 								<m_strLabel>Date Of Birth</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Gender</m_strField>
 								<m_strLabel>Gender</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Category</m_strField>
 								<m_strLabel>Category</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FatherOccupation</m_strField>
 								<m_strLabel>Guardian Occupation</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MotherName</m_strField>
 								<m_strLabel>Mother Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MotherOccupation</m_strField>
 								<m_strLabel>Mother Occupation</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LandLineNumber</m_strField>
 								<m_strLabel>Land Line Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CurrentlyStudying</m_strField>
 								<m_strLabel>Currently Studying</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Stream</m_strField>
 								<m_strLabel>Stream</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>SchoolName</m_strField>
 								<m_strLabel>School Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>SchoolTiming</m_strField>
 								<m_strLabel>School Timing</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>SchoolWeekOff</m_strField>
 								<m_strLabel>School Week Off</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Board</m_strField>
 								<m_strLabel>Board</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedTotal</m_strField>
 								<m_strLabel>Marks Obtained Total %</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedMath</m_strField>
 								<m_strLabel>Marks Obtained Math % </m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedPhysics</m_strField>
 								<m_strLabel>Marks Obtained Physics %</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedChemistry</m_strField>
 								<m_strLabel>Marks Obtained Chemistry %</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedScience</m_strField>
 								<m_strLabel>Marks Obtained Science %</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksObtainedBio</m_strField>
 								<m_strLabel>Marks Obtained Bio %</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MarksSheet</m_strField>
 								<m_strLabel>Marks Sheet</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AcadamicYear</m_strField>
 								<m_strLabel>Acadamic Year</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Class</m_strField>
 								<m_strLabel>Class</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentDate</m_strField>
 								<m_strLabel>Enrollment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>OutDate</m_strField>
 								<m_strLabel>Out Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68567,22 +68567,22 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>Email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Password</m_strField>
 								<m_strLabel>Password</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68594,27 +68594,27 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Name</m_strField>
 								<m_strLabel>Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseID</m_strField>
 								<m_strLabel>Course ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Course</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68626,12 +68626,12 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FeeSchedule</m_strField>
 								<m_strLabel>Fee Schedule</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68643,42 +68643,42 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Amount</m_strField>
 								<m_strLabel>Amount</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ScheduleDate</m_strField>
 								<m_strLabel>Schedule Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FeeScheduleID</m_strField>
 								<m_strLabel>Fee Schedule</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentHeadID</m_strField>
 								<m_strLabel>Payment Head ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Description</m_strField>
 								<m_strLabel>Description</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>IsOneTime</m_strField>
 								<m_strLabel>Is One Time</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68690,42 +68690,42 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentDate</m_strField>
 								<m_strLabel>From Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FinishDate</m_strField>
 								<m_strLabel>To Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>BatchID</m_strField>
 								<m_strLabel>Batch</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FeeScheduleID</m_strField>
 								<m_strLabel>Fee Schedule</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68737,57 +68737,57 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ScheduleDate</m_strField>
 								<m_strLabel>Schedule Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentCourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt#</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentHeadID</m_strField>
 								<m_strLabel>Payment Head</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Description</m_strField>
 								<m_strLabel>Description</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68799,62 +68799,62 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentMode</m_strField>
 								<m_strLabel>Payment Mode</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckNumber</m_strField>
 								<m_strLabel>Check#</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckBank</m_strField>
 								<m_strLabel>Bank</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckStatus</m_strField>
 								<m_strLabel>Check Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt/Ack#</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentPaymentScheduleIDs</m_strField>
 								<m_strLabel>Payment Schedule IDs</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68866,32 +68866,32 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentMode</m_strField>
 								<m_strLabel>Payment Mode</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68903,77 +68903,77 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentMode</m_strField>
 								<m_strLabel>Payment Mode</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckNumber</m_strField>
 								<m_strLabel>Check Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckBank</m_strField>
 								<m_strLabel>Check Bank</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckStatus</m_strField>
 								<m_strLabel>Check Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentPaymentScheduleIDs</m_strField>
 								<m_strLabel>Payment Schedule IDs</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TotalInWords</m_strField>
 								<m_strLabel>Total In Words</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptType</m_strField>
 								<m_strLabel>Receipt Type</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -68985,57 +68985,57 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ScheduleDate</m_strField>
 								<m_strLabel>Schedule Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentCourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentHeadID</m_strField>
 								<m_strLabel>Payment Head</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Description</m_strField>
 								<m_strLabel>Description</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69047,12 +69047,12 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Name</m_strField>
 								<m_strLabel>Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69064,17 +69064,17 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>TableName</m_strField>
 								<m_strLabel>Table Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>GroupID</m_strField>
 								<m_strLabel>Group ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>AccessMask</m_strField>
 								<m_strLabel>Access Mask</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69086,22 +69086,22 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>Email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Password</m_strField>
 								<m_strLabel>Password</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69113,22 +69113,22 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>Email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Password</m_strField>
 								<m_strLabel>Password</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69140,57 +69140,57 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentMode</m_strField>
 								<m_strLabel>Payment Mode</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckNumber</m_strField>
 								<m_strLabel>Check Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckStatus</m_strField>
 								<m_strLabel>Check Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69202,22 +69202,22 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>BatchCode</m_strField>
 								<m_strLabel>Batch Code</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseID</m_strField>
 								<m_strLabel>Course ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69229,17 +69229,17 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>To</m_strField>
 								<m_strLabel>To</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Message</m_strField>
 								<m_strLabel>Message</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69251,17 +69251,17 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Text</m_strField>
 								<m_strLabel>Text</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Title</m_strField>
 								<m_strLabel>Title</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69273,57 +69273,57 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Gender</m_strField>
 								<m_strLabel>Gender</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Category</m_strField>
 								<m_strLabel>Category</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>MobileNumber</m_strField>
 								<m_strLabel>Mobile Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Email</m_strField>
 								<m_strLabel>Email</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Course</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Batch</m_strField>
 								<m_strLabel>Batch</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69335,92 +69335,92 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentMode</m_strField>
 								<m_strLabel>Payment Mode</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckNumber</m_strField>
 								<m_strLabel>Check Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckBank</m_strField>
 								<m_strLabel>Check Bank</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckStatus</m_strField>
 								<m_strLabel>Check Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentPaymentScheduleIDs</m_strField>
 								<m_strLabel>Payment Schedule IDs</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>TotalInWords</m_strField>
 								<m_strLabel>Total In Words</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptType</m_strField>
 								<m_strLabel>Receipt Type</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Class</m_strField>
 								<m_strLabel>Class</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69432,57 +69432,57 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ScheduleDate</m_strField>
 								<m_strLabel>Schedule Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentCourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ServiceTax</m_strField>
 								<m_strLabel>Service Tax</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentHeadID</m_strField>
 								<m_strLabel>Payment Head</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Description</m_strField>
 								<m_strLabel>Description</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69494,62 +69494,62 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ScheduleDate</m_strField>
 								<m_strLabel>Schedule Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Status</m_strField>
 								<m_strLabel>Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentHeadID</m_strField>
 								<m_strLabel>Payment Head ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Description</m_strField>
 								<m_strLabel>Description</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FirstName</m_strField>
 								<m_strLabel>First Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>LastName</m_strField>
 								<m_strLabel>Last Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentNumber</m_strField>
 								<m_strLabel>Enrollment Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Course</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>BatchCode</m_strField>
 								<m_strLabel>Batch Code</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student System ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69561,47 +69561,47 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckNumber</m_strField>
 								<m_strLabel>Check Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckBank</m_strField>
 								<m_strLabel>Check Bank</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CheckStatus</m_strField>
 								<m_strLabel>Check Status</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Acknowledgement Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Total</m_strField>
 								<m_strLabel>Total</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Receiving Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>StudentPaymentScheduleIDs</m_strField>
 								<m_strLabel>Student Payment Schedule IDs</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69613,22 +69613,22 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>Fees</m_strField>
 								<m_strLabel>Fees</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentDate</m_strField>
 								<m_strLabel>Payment Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>PaymentCategory</m_strField>
 								<m_strLabel>Payment Category</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseName</m_strField>
 								<m_strLabel>Course Name</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69640,12 +69640,12 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>EnrollmentDate</m_strField>
 								<m_strLabel>Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>EnrollmentCount</m_strField>
 								<m_strLabel>Enrollment Count</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69657,12 +69657,12 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>OutDate</m_strField>
 								<m_strLabel>Out Date</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>OutCount</m_strField>
 								<m_strLabel>Out Count</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69674,41 +69674,41 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>FeeScheduleID</m_strField>
 								<m_strLabel>Fee Schedule</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>CourseID</m_strField>
 								<m_strLabel>Course</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>FeeSchedule</m_strField>
 								<m_strLabel>Fee Schedule</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
 				</m_arrTableLabels>
 			</v>
 			<v>
-				<m_strLanguage></m_strLanguage>
+				<m_strLanguage />
 				<m_arrTableLabels>
 					<v>
-						<m_strTableName></m_strTableName>
-						<m_strTableLabel></m_strTableLabel>
+						<m_strTableName />
+						<m_strTableLabel />
 						<m_arrFieldLabels />
 						<m_arrPageTitleLabels />
 					</v>
@@ -69719,12 +69719,12 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>StudentID</m_strField>
 								<m_strLabel>Student</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 							<v>
 								<m_strField>Batch</m_strField>
 								<m_strLabel>Batch</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69736,7 +69736,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69748,7 +69748,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69760,7 +69760,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69772,7 +69772,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ReceiptNumber</m_strField>
 								<m_strLabel>Receipt Number</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69790,7 +69790,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69802,7 +69802,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -69814,7 +69814,7 @@ $_SESSION["SenderID"] ="PARTHA";
 							<v>
 								<m_strField>ID</m_strField>
 								<m_strLabel>ID</m_strLabel>
-								<m_strTooltip></m_strTooltip>
+								<m_strTooltip />
 							</v>
 						</m_arrFieldLabels>
 						<m_arrPageTitleLabels />
@@ -71530,7 +71530,7 @@ $_SESSION["SenderID"] ="PARTHA";
 		<m_bNewUserPage>0</m_bNewUserPage>
 		<m_bNotifyUser>0</m_bNotifyUser>
 		<m_bNotifyAdmin>0</m_bNotifyAdmin>
-		<m_strAdminEmail></m_strAdminEmail>
+		<m_strAdminEmail />
 		<m_bRemindPwdPage>1</m_bRemindPwdPage>
 		<m_bChangePwdPage>1</m_bChangePwdPage>
 		<m_arrUserFields>
@@ -75257,7 +75257,7 @@ $_SESSION["SenderID"] ="PARTHA";
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\styles\PurificBlue_white</filename>
-				<source></source>
+				<source />
 			</v>
 			<v>
 				<filename>D:\wamp\www\Projects\Partha\templates\student_course_inline_edit.htm</filename>
@@ -75731,16 +75731,16 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_strUserGroupField>Email</m_strUserGroupField>
 	<m_bGuestLogin>0</m_bGuestLogin>
 	<m_bFacebookLogin>0</m_bFacebookLogin>
-	<m_strFacebookAppId></m_strFacebookAppId>
-	<m_strFacebookSecretId></m_strFacebookSecretId>
+	<m_strFacebookAppId />
+	<m_strFacebookSecretId />
 	<m_nEncryptMode>2</m_nEncryptMode>
 	<m_strEncryptKey>504ad191651d49e1b9836dbb220a71d9</m_strEncryptKey>
-	<m_ADDomain></m_ADDomain>
-	<m_ADServer></m_ADServer>
+	<m_ADDomain />
+	<m_ADServer />
 	<m_ADAdmins />
 	<m_ADSingleSignOn>0</m_ADSingleSignOn>
-	<m_ADLogin></m_ADLogin>
-	<m_ADPassword></m_ADPassword>
+	<m_ADLogin />
+	<m_ADPassword />
 	<m_bPre72Project>0</m_bPre72Project>
 	<m_bAdminUser>0</m_bAdminUser>
 	<m_strAdminUserID />
@@ -75923,7 +75923,7 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_nDefaultDecimalDigits>2</m_nDefaultDecimalDigits>
 	<m_nDefaultInitialYearFactor>100</m_nDefaultInitialYearFactor>
 	<m_nDefaultLastYearFactor>10</m_nDefaultLastYearFactor>
-	<m_strCustomDBConnString></m_strCustomDBConnString>
+	<m_strCustomDBConnString />
 	<m_bBuildMobile>0</m_bBuildMobile>
 	<m_projectCRC>2090302685</m_projectCRC>
 	<viewPluginsWithJS />
@@ -75940,11 +75940,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>1</id>
 			<parent>0</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>student</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -75955,11 +75955,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>2</id>
 			<parent>0</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>vw_student_course_batch</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -75970,11 +75970,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>3</id>
 			<parent>0</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>vw_pending_payment</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -75985,11 +75985,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>4</id>
 			<parent>0</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>vw_pending_check</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -76000,86 +76000,86 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>5</id>
 			<parent>0</parent>
-			<style></style>
-			<href></href>
-			<params></params>
-			<table></table>
-			<iconName></iconName>
+			<style />
+			<href />
+			<params />
+			<table />
+			<iconName />
 			<type>Group</type>
 			<linkType>None</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>6</id>
 			<parent>5</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>Service_Tax_Collection</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>Report</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>7</id>
 			<parent>5</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>Collection</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>Report</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>8</id>
 			<parent>5</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>Collection_Chart</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>Chart</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>9</id>
 			<parent>5</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>student_New_Enrollment</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>Report</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>10</id>
 			<parent>5</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>student_Out</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>Report</pageType>
@@ -76090,41 +76090,41 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>11</id>
 			<parent>0</parent>
-			<style></style>
-			<href></href>
-			<params></params>
-			<table></table>
-			<iconName></iconName>
+			<style />
+			<href />
+			<params />
+			<table />
+			<iconName />
 			<type>Group</type>
 			<linkType>None</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>12</id>
 			<parent>11</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>course</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
 			<openType>None</openType>
 		</MenuNode>
 		<MenuNode>
-			<name></name>
+			<name />
 			<nameType>Text</nameType>
 			<id>13</id>
 			<parent>11</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>batch</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -76135,11 +76135,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>14</id>
 			<parent>11</parent>
-			<style></style>
-			<href></href>
-			<params></params>
-			<table></table>
-			<iconName></iconName>
+			<style />
+			<href />
+			<params />
+			<table />
+			<iconName />
 			<type>Group</type>
 			<linkType>None</linkType>
 			<pageType>List</pageType>
@@ -76150,11 +76150,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>15</id>
 			<parent>14</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>lu_feeschedule</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -76165,11 +76165,11 @@ $_SESSION["SenderID"] ="PARTHA";
 			<nameType>Text</nameType>
 			<id>16</id>
 			<parent>14</parent>
-			<style></style>
+			<style />
 			<href>mypage.htm</href>
-			<params></params>
+			<params />
 			<table>lu_payment_head</table>
-			<iconName></iconName>
+			<iconName />
 			<type>Leaf</type>
 			<linkType>Internal</linkType>
 			<pageType>List</pageType>
@@ -76197,7 +76197,7 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_bAlreadyBuilt>1</m_bAlreadyBuilt>
 	<m_bFullBuild>0</m_bFullBuild>
 	<m_bDisplayDesktop>0</m_bDisplayDesktop>
-	<m_strSavedSearchesTable></m_strSavedSearchesTable>
+	<m_strSavedSearchesTable />
 	<m_arrProjectMenus />
 	<m_arrMenuOverrides />
 	<m_arrMenuStyleOverrides />
@@ -76215,7 +76215,7 @@ $_SESSION["SenderID"] ="PARTHA";
 	<m_EventsVBProjectGUID>{64FFBE60-C56A-4f53-85EF-829D7A32391E}</m_EventsVBProjectGUID>
 	<m_NetProjectFiles />
 	<m_nLandingPageType>1</m_nLandingPageType>
-	<m_strLandingTable></m_strLandingTable>
+	<m_strLandingTable />
 	<m_strLandingPage>menu</m_strLandingPage>
 	<m_strLandingURL>menu.php</m_strLandingURL>
 </project>
