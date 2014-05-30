@@ -266,6 +266,15 @@
 	</span>
 </div>
   {END adminarea_link}
+{BEGIN changepwd_link}
+<div>
+	<span class="runner-btnframe">
+	<span class="runner-btnleft"></span>
+	<span class="runner-btnright"></span>
+	<a class="runner-button" href="changepwd.php" {$changepwdlink_attrs}>Change password</a>
+	</span>
+</div>
+{END changepwd_link}
 </div>
 </td><td class="runner-cr"></td></tr>{END security_block}
 
@@ -447,27 +456,7 @@
 									</th>
 									{END checkbox_column}
 
-																										{BEGIN PaymentHeadID_fieldheadercolumn}
-									<th class="runner-cc ">
-									{BEGIN PaymentHeadID_fieldheader}
-																				<a {$PaymentHeadID_orderlinkattrs}>
-											Payment Head ID
-										</a>
-									{END PaymentHeadID_fieldheader}
-									</th>
-									{END PaymentHeadID_fieldheadercolumn}
-
-																	{BEGIN CourseID_fieldheadercolumn}
-									<th class="runner-cc ">
-									{BEGIN CourseID_fieldheader}
-																				<a {$CourseID_orderlinkattrs}>
-											Course
-										</a>
-									{END CourseID_fieldheader}
-									</th>
-									{END CourseID_fieldheadercolumn}
-
-																	{BEGIN FeeScheduleID_fieldheadercolumn}
+																										{BEGIN FeeScheduleID_fieldheadercolumn}
 									<th class="runner-cc ">
 									{BEGIN FeeScheduleID_fieldheader}
 																				<a {$FeeScheduleID_orderlinkattrs}>
@@ -476,6 +465,16 @@
 									{END FeeScheduleID_fieldheader}
 									</th>
 									{END FeeScheduleID_fieldheadercolumn}
+
+																	{BEGIN PaymentHeadID_fieldheadercolumn}
+									<th class="runner-cc ">
+									{BEGIN PaymentHeadID_fieldheader}
+																				<a {$PaymentHeadID_orderlinkattrs}>
+											Payment Head ID
+										</a>
+									{END PaymentHeadID_fieldheader}
+									</th>
+									{END PaymentHeadID_fieldheadercolumn}
 
 																	{BEGIN Amount_fieldheadercolumn}
 									<th class="runner-cc ">
@@ -559,23 +558,17 @@
 									{END checkbox_column}
 
 
-										{BEGIN PaymentHeadID_fieldcolumn}
-	<td class="runner-cc  {$PaymentHeadID_class}" {$PaymentHeadID_style}>
-		{$PaymentHeadID_value}
-	</td>
-{END PaymentHeadID_fieldcolumn}
-
-	{BEGIN CourseID_fieldcolumn}
-	<td class="runner-cc  {$CourseID_class}" {$CourseID_style}>
-		{$CourseID_value}
-	</td>
-{END CourseID_fieldcolumn}
-
-	{BEGIN FeeScheduleID_fieldcolumn}
+										{BEGIN FeeScheduleID_fieldcolumn}
 	<td class="runner-cc  {$FeeScheduleID_class}" {$FeeScheduleID_style}>
 		{$FeeScheduleID_value}
 	</td>
 {END FeeScheduleID_fieldcolumn}
+
+	{BEGIN PaymentHeadID_fieldcolumn}
+	<td class="runner-cc  {$PaymentHeadID_class}" {$PaymentHeadID_style}>
+		{$PaymentHeadID_value}
+	</td>
+{END PaymentHeadID_fieldcolumn}
 
 	{BEGIN Amount_fieldcolumn}
 	<td class="runner-cc  {$Amount_class}" {$Amount_style}>
@@ -624,15 +617,12 @@
 									{END checkbox_column}
 
 
-									{BEGIN PaymentHeadID_fieldheadercolumn}
-<td class="runner-cc "></td>
-{END PaymentHeadID_fieldheadercolumn}
-{BEGIN CourseID_fieldheadercolumn}
-<td class="runner-cc "></td>
-{END CourseID_fieldheadercolumn}
-{BEGIN FeeScheduleID_fieldheadercolumn}
+									{BEGIN FeeScheduleID_fieldheadercolumn}
 <td class="runner-cc "></td>
 {END FeeScheduleID_fieldheadercolumn}
+{BEGIN PaymentHeadID_fieldheadercolumn}
+<td class="runner-cc "></td>
+{END PaymentHeadID_fieldheadercolumn}
 {BEGIN Amount_fieldheadercolumn}
 <td class="runner-cc "></td>
 {END Amount_fieldheadercolumn}

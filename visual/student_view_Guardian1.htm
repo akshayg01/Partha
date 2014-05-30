@@ -1,69 +1,78 @@
+<div {$pageattrs}>
 
-<DIV {$pageattrs}>
-{BEGIN container_1}
-<TABLE class=runner-c cellPadding=0>
-  <TBODY>
-  {BEGIN GuardianName_tabfieldblock}<TR class="runner-row style1"><TD 
-    class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_GuardianName {$fielddispclass_GuardianName}"><STRONG>Guardian 
-      Name </STRONG></DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV class="fieldvalue_GuardianName {$fielddispclass_GuardianName}">{$GuardianName_value} 
-      </DIV></TD></TR>
-  {END GuardianName_tabfieldblock}{BEGIN FatherOccupation_tabfieldblock}<TR class="runner-row style1">
-    <TD class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_FatherOccupation {$fielddispclass_FatherOccupation}"><STRONG>Guardian 
-      Occupation</STRONG> </DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV 
-      class="fieldvalue_FatherOccupation {$fielddispclass_FatherOccupation}">{$FatherOccupation_value} 
-    </DIV></TD></TR>
-  {END FatherOccupation_tabfieldblock}{BEGIN GuardianMobile_tabfieldblock}<TR class="runner-row style1">
-    <TD class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_GuardianMobile {$fielddispclass_GuardianMobile}"><STRONG>Guardian 
-      Mobile</STRONG> </DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV 
-      class="fieldvalue_GuardianMobile {$fielddispclass_GuardianMobile}">{$GuardianMobile_value} 
-      </DIV></TD></TR>
-  {END GuardianMobile_tabfieldblock}{BEGIN GuardianEmail_tabfieldblock}<TR class="runner-row style1">
-    <TD class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_GuardianEmail {$fielddispclass_GuardianEmail}"><STRONG>Guardian 
-      Email</STRONG> </DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV 
-      class="fieldvalue_GuardianEmail {$fielddispclass_GuardianEmail}">{$GuardianEmail_value} 
-      </DIV></TD></TR>
-  {END GuardianEmail_tabfieldblock}{BEGIN MotherName_tabfieldblock}<TR class="runner-row style1">
-    <TD class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_MotherName {$fielddispclass_MotherName}"><STRONG>Mother 
-      Name</STRONG> </DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV class="fieldvalue_MotherName {$fielddispclass_MotherName}">{$MotherName_value} 
-      </DIV></TD></TR>
-  {END MotherName_tabfieldblock}{BEGIN MotherOccupation_tabfieldblock}<TR class="runner-row style1">
-    <TD class="runner-cc runner-cc1">
-      
-      <DIV 
-      class="fieldlabel_MotherOccupation {$fielddispclass_MotherOccupation}"><STRONG>Mother 
-      Occupation</STRONG> </DIV></TD>
-    <TD class="runner-cc alt">
-      
-      <DIV 
-      class="fieldvalue_MotherOccupation {$fielddispclass_MotherOccupation}">{$MotherOccupation_value} 
-    </DIV></TD></TR>{END MotherOccupation_tabfieldblock}</TBODY></TABLE>{END container_1}</DIV>
+{BEGIN container_1}<table class="fieldGrid">
+<TBODY>
+  {BEGIN GuardianName_tabfieldblock}<tr class="{$fielddispclass_GuardianName}" data-fieldname="GuardianName">
+	<td class="style1 rnr-label">
+		{$label student GuardianName}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_GuardianName">
+		{$GuardianName_value}
+		</div>
+	</td>
+</tr>
+{END GuardianName_tabfieldblock}
+{BEGIN FatherOccupation_tabfieldblock}<tr class="{$fielddispclass_FatherOccupation}" data-fieldname="FatherOccupation">
+	<td class="style1 rnr-label">
+		{$label student FatherOccupation}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_FatherOccupation">
+		{$FatherOccupation_value}
+		</div>
+	</td>
+</tr>
+{END FatherOccupation_tabfieldblock}
+{BEGIN GuardianMobile_tabfieldblock}<tr class="{$fielddispclass_GuardianMobile}" data-fieldname="GuardianMobile">
+	<td class="style1 rnr-label">
+		{$label student GuardianMobile}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_GuardianMobile">
+		{$GuardianMobile_value}
+		</div>
+	</td>
+</tr>
+{END GuardianMobile_tabfieldblock}
+{BEGIN GuardianEmail_tabfieldblock}<tr class="{$fielddispclass_GuardianEmail}" data-fieldname="GuardianEmail">
+	<td class="style1 rnr-label">
+		{$label student GuardianEmail}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_GuardianEmail">
+		{$GuardianEmail_value}
+		</div>
+	</td>
+</tr>
+{END GuardianEmail_tabfieldblock}
+{BEGIN MotherName_tabfieldblock}<tr class="{$fielddispclass_MotherName}" data-fieldname="MotherName">
+	<td class="style1 rnr-label">
+		{$label student MotherName}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_MotherName">
+		{$MotherName_value}
+		</div>
+	</td>
+</tr>
+{END MotherName_tabfieldblock}
+{BEGIN MotherOccupation_tabfieldblock}<tr class="{$fielddispclass_MotherOccupation}" data-fieldname="MotherOccupation">
+	<td class="style1 rnr-label">
+		{$label student MotherOccupation}
+	</td>
+	<td class="rnr-control style3">
+		<div class="fieldvalue_MotherOccupation">
+		{$MotherOccupation_value}
+		</div>
+	</td>
+</tr>
+{END MotherOccupation_tabfieldblock}
+</TBODY></table>
+
+
+
+
+{END container_1}
+
+</div>

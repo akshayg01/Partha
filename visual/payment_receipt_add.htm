@@ -1,93 +1,146 @@
-<!DOCTYPE html>
-<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
-<META content=IE=7 http-equiv=X-UA-Compatible>
-<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
-<META name=GENERATOR content="MSHTML 10.00.9200.16736"></HEAD>
-<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
-<TABLE class=runner-toptable cellPadding=0><TR class=runner-header><TD class=runner-top colSpan=3>{BEGIN container_add}<TABLE class="runner-c runner-c-add" cellPadding=0 align=center><TR class="runner-toprow style2 header"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-          <TD class=runner-cc><DIV class="runner-b-addheader {$brickclass_addheader}">Payment 
-            Receipt, Add new record</DIV></TD>
-          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
-        {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}"><TD class=runner-cl></TD>
-          <TD class="runner-cc runner-brickcontents"><DIV class=runner-message>{$message}</DIV></TD>
-          <TD class=runner-cr></TD></TR>
-        {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><TD class=runner-cl></TD>
-          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_fields}<TABLE class="runner-c runner-c-fields" cellPadding=0><TR class="{$cheaderclass_fields}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-                <TD class=runner-cc></TD>
-                <TD class="runner-cc alt"></TD>
-                <TD class="runner-cr alt"><IMG src="images/spacer.gif"></TD></TR>
-              {BEGIN PaymentDate_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_PaymentDate {$fielddispclass_PaymentDate}">{BEGIN PaymentDate_label}Payment/Check Receiving Date{END PaymentDate_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_PaymentDate {$fielddispclass_PaymentDate}">{$PaymentDate_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END PaymentDate_fieldblock}{BEGIN PaymentMode_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_PaymentMode {$fielddispclass_PaymentMode}">{BEGIN PaymentMode_label}Payment Mode {END PaymentMode_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_PaymentMode {$fielddispclass_PaymentMode}">{$PaymentMode_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END PaymentMode_fieldblock}{BEGIN CheckNumber_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_CheckNumber {$fielddispclass_CheckNumber}">{BEGIN CheckNumber_label}Check Number{END CheckNumber_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_CheckNumber {$fielddispclass_CheckNumber}">{$CheckNumber_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END CheckNumber_fieldblock}{BEGIN CheckBank_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_CheckBank {$fielddispclass_CheckBank}">{BEGIN CheckBank_label}Check Bank{END CheckBank_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_CheckBank {$fielddispclass_CheckBank}">{$CheckBank_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END CheckBank_fieldblock}{BEGIN CheckStatus_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_CheckStatus {$fielddispclass_CheckStatus}">{BEGIN CheckStatus_label}Check Status{END CheckStatus_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_CheckStatus {$fielddispclass_CheckStatus}">{$CheckStatus_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END CheckStatus_fieldblock}{BEGIN StudentPaymentScheduleIDs_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_StudentPaymentScheduleIDs {$fielddispclass_StudentPaymentScheduleIDs}">{BEGIN StudentPaymentScheduleIDs_label}Payment Schedule IDs{END StudentPaymentScheduleIDs_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_StudentPaymentScheduleIDs {$fielddispclass_StudentPaymentScheduleIDs}">{$StudentPaymentScheduleIDs_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END StudentPaymentScheduleIDs_fieldblock}{BEGIN Fees_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Fees {$fielddispclass_Fees}">{BEGIN Fees_label}Fees {END Fees_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV class="fieldcontrol_Fees {$fielddispclass_Fees}">{$Fees_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Fees_fieldblock}{BEGIN ServiceTax_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_ServiceTax {$fielddispclass_ServiceTax}">{BEGIN ServiceTax_label}Service Tax {END ServiceTax_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_ServiceTax {$fielddispclass_ServiceTax}">{$ServiceTax_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END ServiceTax_fieldblock}{BEGIN Total_fieldblock}<TR class="runner-row style1 runner-b-addfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Total {$fielddispclass_Total}">{BEGIN Total_label}Total {END Total_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV class="fieldcontrol_Total {$fielddispclass_Total}">{$Total_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Total_fieldblock}{BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-brickcontents" colSpan=2><SPAN id=required_block{$id}><IMG alt=bullet src="images/icon_required.gif"> - Required field </SPAN></TD>
-                <TD class=runner-cr></TD></TR>
-              {END legend}<TR 
-              class="runner-row style2 runner-b-addbuttons {$brickclass_addbuttons}"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-brickcontents" colSpan=2>{BEGIN save_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$savebutton_attrs}>Save</A> 
-                  </SPAN>{END save_button}{BEGIN cancel_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$cancelbutton_attrs}>Cancel</A> 
-                  </SPAN>{END cancel_button}{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Back to 
-                  list</A> </SPAN>{END back_button}{BEGIN backToMenu_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backToMenubutton_attrs}>Back to menu</A> </SPAN>{END backToMenu_button}</TD>
-                <TD class=runner-cr></TD></TR>
-              <TR class="{$cfooterclass_fields}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-                <TD class=runner-cc></TD>
-                <TD class=runner-cc></TD>
-                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_fields}</TD>
-          <TD class=runner-cr></TD></TR>
-        <TR class="{$cfooterclass_add}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-          <TD class=runner-cc></TD>
-          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_add}</TD></TR>
-  <TR class=runner-body><TD class="runner-left {$blockclass_left}"></TD>
-    <TD class="runner-center {$blockclass_center}"></TD>
-    <TD class="runner-right {$blockclass_right}"></TD></TR>
-  <TR class=runner-footer><TD class=runner-bottom 
-colSpan=3><!--%%bottom%%--></TD></TR></TABLE>{$footer}{END body} </BODY></HTML>
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-add" {$bodyattrs}>
+	{BEGIN body}{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_add} rnr-wrapper rnr-cbw-add">
+
+{BEGIN container_add}<div class="rnr-c rnr-cv rnr-c-add">
+
+{BEGIN addheader}<div  class="rnr-brickcontents style2 rnr-b-addheader {$brickclass_addheader}"><span>	{$pagetitlelabel payment_receipt add}
+</span></div>{END addheader}
+
+
+{BEGIN message_block}<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-addfields2_atop {$brickclass_addfields2_atop}"><table class="fieldGrid fieldGrid2 edit">
+
+<tr>
+<td>
+	{BEGIN PaymentDate_fieldblock}<div data-fieldname="PaymentDate" class="rnr-field style1 {$fielddispclass_PaymentDate}">
+  <div class="rnr-label above">{BEGIN PaymentDate_label}{$label payment_receipt PaymentDate}{END PaymentDate_label}</div>
+  <div class="rnr-control style3">{$PaymentDate_editcontrol}</div>
+</div>
+{END PaymentDate_fieldblock}
+	{BEGIN PaymentMode_fieldblock}<div data-fieldname="PaymentMode" class="rnr-field style1 {$fielddispclass_PaymentMode}">
+  <div class="rnr-label above">{BEGIN PaymentMode_label}{$label payment_receipt PaymentMode}{END PaymentMode_label}</div>
+  <div class="rnr-control style3">{$PaymentMode_editcontrol}</div>
+</div>
+{END PaymentMode_fieldblock}
+	{BEGIN CheckNumber_fieldblock}<div data-fieldname="CheckNumber" class="rnr-field style1 {$fielddispclass_CheckNumber}">
+  <div class="rnr-label above">{BEGIN CheckNumber_label}{$label payment_receipt CheckNumber}{END CheckNumber_label}</div>
+  <div class="rnr-control style3">{$CheckNumber_editcontrol}</div>
+</div>
+{END CheckNumber_fieldblock}
+	{BEGIN CheckBank_fieldblock}<div data-fieldname="CheckBank" class="rnr-field style1 {$fielddispclass_CheckBank}">
+  <div class="rnr-label above">{BEGIN CheckBank_label}{$label payment_receipt CheckBank}{END CheckBank_label}</div>
+  <div class="rnr-control style3">{$CheckBank_editcontrol}</div>
+</div>
+{END CheckBank_fieldblock}
+	{BEGIN CheckStatus_fieldblock}<div data-fieldname="CheckStatus" class="rnr-field style1 {$fielddispclass_CheckStatus}">
+  <div class="rnr-label above">{BEGIN CheckStatus_label}{$label payment_receipt CheckStatus}{END CheckStatus_label}</div>
+  <div class="rnr-control style3">{$CheckStatus_editcontrol}</div>
+</div>
+{END CheckStatus_fieldblock}
+</td>
+<td>
+	{BEGIN StudentPaymentScheduleIDs_fieldblock}<div data-fieldname="StudentPaymentScheduleIDs" class="rnr-field style1 {$fielddispclass_StudentPaymentScheduleIDs}">
+  <div class="rnr-label above">{BEGIN StudentPaymentScheduleIDs_label}{$label payment_receipt StudentPaymentScheduleIDs}{END StudentPaymentScheduleIDs_label}</div>
+  <div class="rnr-control style3">{$StudentPaymentScheduleIDs_editcontrol}</div>
+</div>
+{END StudentPaymentScheduleIDs_fieldblock}
+	{BEGIN Fees_fieldblock}<div data-fieldname="Fees" class="rnr-field style1 {$fielddispclass_Fees}">
+  <div class="rnr-label above">{BEGIN Fees_label}{$label payment_receipt Fees}{END Fees_label}</div>
+  <div class="rnr-control style3">{$Fees_editcontrol}</div>
+</div>
+{END Fees_fieldblock}
+	{BEGIN ServiceTax_fieldblock}<div data-fieldname="ServiceTax" class="rnr-field style1 {$fielddispclass_ServiceTax}">
+  <div class="rnr-label above">{BEGIN ServiceTax_label}{$label payment_receipt ServiceTax}{END ServiceTax_label}</div>
+  <div class="rnr-control style3">{$ServiceTax_editcontrol}</div>
+</div>
+{END ServiceTax_fieldblock}
+	{BEGIN Total_fieldblock}<div data-fieldname="Total" class="rnr-field style1 {$fielddispclass_Total}">
+  <div class="rnr-label above">{BEGIN Total_label}{$label payment_receipt Total}{END Total_label}</div>
+  <div class="rnr-control style3">{$Total_editcontrol}</div>
+</div>
+{END Total_fieldblock}
+</td>
+</tr>
+</table></div>
+
+
+{BEGIN addbuttons}<div  class="rnr-brickcontents style2 rnr-b-addbuttons {$brickclass_addbuttons}">{BEGIN save_button}<a href="#" class="rnr-button main" {$savebutton_attrs}>Save</a>
+{END save_button}
+{BEGIN cancel_button}<a href="#" class="rnr-button" {$cancelbutton_attrs}>Cancel</a>
+{END cancel_button}
+{BEGIN back_button}<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN backToMenu_button}<a href="#" class="rnr-button" {$backToMenubutton_attrs}>Back to menu</a>
+{END backToMenu_button}</div>{END addbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_add}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,23 +1,49 @@
-<!DOCTYPE html>
-<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
-<META content=IE=7 http-equiv=X-UA-Compatible>
-<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
-<META name=GENERATOR content="MSHTML 10.00.9200.16736"></HEAD>
-<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
-<TABLE class=runner-toptable cellPadding=0><TR class=runner-header><TD class=runner-top colSpan=3>{BEGIN container_edit}<TABLE class="runner-c runner-c-edit" cellPadding=0 align=center><TR class="runner-toprow style2 header"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-          <TD class=runner-cc><DIV class="runner-b-editheader {$brickclass_editheader}">Student, 
-            Edit record [ ID: {$show_key1} ]</DIV></TD>
-          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
-        {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}"><TD class=runner-cl></TD>
-          <TD class="runner-cc runner-brickcontents"><DIV class=runner-message>{$message}</DIV></TD>
-          <TD class=runner-cr></TD></TR>
-        {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><TD class=runner-cl></TD>
-          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_fields}<TABLE class="runner-c runner-c-fields" cellPadding=0>{BEGIN FirstName_fieldblock}<TR class="runner-toprow header style1 runner-b-editfields"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_FirstName {$fielddispclass_FirstName}">{BEGIN FirstName_label}First Name {END FirstName_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_FirstName {$fielddispclass_FirstName}">{$FirstName_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell" rowSpan=11>{$Photo_editcontrol}
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}<div class="rnr-c rnr-cv rnr-c-fields">
+
+{BEGIN editheader}<div  class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}"><span>	{$pagetitlelabel student edit}
+</span></div>{END editheader}
+
+
+{BEGIN message_block}<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-editfields2 {$brickclass_editfields2}"><table class="fieldGrid fieldGrid2 edit">
+
+<tr>
+<td>
+	{BEGIN FirstName_fieldblock}<div data-fieldname="FirstName" class="rnr-field style1 {$fielddispclass_FirstName}">
+  <span class="rnr-label">{BEGIN FirstName_label}{$label student FirstName}{END FirstName_label}</span>
+  <span class="rnr-control style3">{$FirstName_editcontrol}</span>
+</div>
+{$Photo_editcontrol}
                   
                   
                   
@@ -28,124 +54,171 @@
                   
                   
                   
-                  </TD>
-                <TD class="runner-cr alt"><IMG src="images/spacer.gif"></TD></TR>
-              {END FirstName_fieldblock}{BEGIN LastName_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_LastName {$fielddispclass_LastName}">{BEGIN LastName_label}Last Name {END LastName_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_LastName {$fielddispclass_LastName}">{$LastName_editcontrol}&nbsp; 
-                </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END LastName_fieldblock}{BEGIN Gender_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD 
-                  class="runner-cc runner-cc1"><DIV class="fieldlabel_Gender {$fielddispclass_Gender}">{BEGIN Gender_label}Gender {END Gender_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_Gender {$fielddispclass_Gender}">{$Gender_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Gender_fieldblock}{BEGIN DateOfBirth_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_DateOfBirth {$fielddispclass_DateOfBirth}">{BEGIN DateOfBirth_label}Date Of Birth {END DateOfBirth_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_DateOfBirth {$fielddispclass_DateOfBirth}">{$DateOfBirth_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END DateOfBirth_fieldblock}{BEGIN Category_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Category {$fielddispclass_Category}">{BEGIN Category_label}Category {END Category_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_Category {$fielddispclass_Category}">{$Category_editcontrol}&nbsp; 
-                </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Category_fieldblock}{BEGIN Class_fieldblock}<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
-		<td class="runner-cc runner-cc1"><div class="fieldlabel_Class {$fielddispclass_Class}">{BEGIN Class_label}Class{END Class_label}
-			</div>
-		</td>
-		<td class="runner-cc alt runner-fixedcell"><div class="fieldcontrol_Class {$fielddispclass_Class}">{$Class_editcontrol}&nbsp;
-			</div>
-		</td>
-	<td class="runner-cr alt"></td></tr>
+                  {END FirstName_fieldblock}
+	{BEGIN Photo_fieldblock}<div data-fieldname="Photo" class="rnr-field style1 {$fielddispclass_Photo}">
+  <span class="rnr-label">{BEGIN Photo_label}{$label student Photo}{END Photo_label}</span>
+  <span class="rnr-control style3">{$Photo_editcontrol}</span>
+</div>
+{END Photo_fieldblock}
+	{BEGIN LastName_fieldblock}<div data-fieldname="LastName" class="rnr-field style1 {$fielddispclass_LastName}">
+  <span class="rnr-label">{BEGIN LastName_label}{$label student LastName}{END LastName_label}</span>
+  <span class="rnr-control style3">{$LastName_editcontrol}</span>
+</div>
+{END LastName_fieldblock}
+	{BEGIN Gender_fieldblock}<div data-fieldname="Gender" class="rnr-field style1 {$fielddispclass_Gender}">
+  <span class="rnr-label">{BEGIN Gender_label}{$label student Gender}{END Gender_label}</span>
+  <span class="rnr-control style3">{$Gender_editcontrol}</span>
+</div>
+{END Gender_fieldblock}
+	{BEGIN DateOfBirth_fieldblock}<div data-fieldname="DateOfBirth" class="rnr-field style1 {$fielddispclass_DateOfBirth}">
+  <span class="rnr-label">{BEGIN DateOfBirth_label}{$label student DateOfBirth}{END DateOfBirth_label}</span>
+  <span class="rnr-control style3">{$DateOfBirth_editcontrol}</span>
+</div>
+{END DateOfBirth_fieldblock}
+	{BEGIN Category_fieldblock}<div data-fieldname="Category" class="rnr-field style1 {$fielddispclass_Category}">
+  <span class="rnr-label">{BEGIN Category_label}{$label student Category}{END Category_label}</span>
+  <span class="rnr-control style3">{$Category_editcontrol}</span>
+</div>
+{END Category_fieldblock}
+	{BEGIN Class_fieldblock}<div data-fieldname="Class" class="rnr-field style1 {$fielddispclass_Class}">
+  <span class="rnr-label">{BEGIN Class_label}{$label student Class}{END Class_label}</span>
+  <span class="rnr-control style3">{$Class_editcontrol}</span>
+</div>
 {END Class_fieldblock}
-	{BEGIN EnrollmentNumber_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_EnrollmentNumber {$fielddispclass_EnrollmentNumber}">{BEGIN EnrollmentNumber_label}Enrollment Number {END EnrollmentNumber_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_EnrollmentNumber {$fielddispclass_EnrollmentNumber}">{$EnrollmentNumber_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END EnrollmentNumber_fieldblock}{BEGIN Stream_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Stream {$fielddispclass_Stream}">{BEGIN Stream_label}Stream {END Stream_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_Stream {$fielddispclass_Stream}">{$Stream_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Stream_fieldblock}{BEGIN Email_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Email {$fielddispclass_Email}">{BEGIN Email_label}Email {END Email_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV class="fieldcontrol_Email {$fielddispclass_Email}">{$Email_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Email_fieldblock}{BEGIN MobileNumber_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_MobileNumber {$fielddispclass_MobileNumber}">{BEGIN MobileNumber_label}Mobile Number {END MobileNumber_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_MobileNumber {$fielddispclass_MobileNumber}">{$MobileNumber_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END MobileNumber_fieldblock}{BEGIN Status_fieldblock}<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Status {$fielddispclass_Status}">{BEGIN Status_label}Status {END Status_label}</DIV></TD>
-                <TD class="runner-cc alt runner-fixedcell"><DIV 
-                  class="fieldcontrol_Status {$fielddispclass_Status}">{$Status_editcontrol}&nbsp; 
-                  </DIV></TD>
-                <TD class="runner-cr alt"></TD></TR>
-              {END Status_fieldblock}{BEGIN OutDate_fieldblock}<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
-		<td class="runner-cc runner-cc1"><div class="fieldlabel_OutDate {$fielddispclass_OutDate}">{BEGIN OutDate_label}Out Date{END OutDate_label}
-			</div>
-		</td>
-		<td class="runner-cc alt runner-fixedcell"><div class="fieldcontrol_OutDate {$fielddispclass_OutDate}">{$OutDate_editcontrol}&nbsp;
-			</div>
-		</td>
-	<td class="runner-cr alt"></td></tr>
+</td>
+<td>
+	{BEGIN EnrollmentNumber_fieldblock}<div data-fieldname="EnrollmentNumber" class="rnr-field style1 {$fielddispclass_EnrollmentNumber}">
+  <span class="rnr-label">{BEGIN EnrollmentNumber_label}{$label student EnrollmentNumber}{END EnrollmentNumber_label}</span>
+  <span class="rnr-control style3">{$EnrollmentNumber_editcontrol}</span>
+</div>
+{END EnrollmentNumber_fieldblock}
+	{BEGIN Stream_fieldblock}<div data-fieldname="Stream" class="rnr-field style1 {$fielddispclass_Stream}">
+  <span class="rnr-label">{BEGIN Stream_label}{$label student Stream}{END Stream_label}</span>
+  <span class="rnr-control style3">{$Stream_editcontrol}</span>
+</div>
+{END Stream_fieldblock}
+	{BEGIN Email_fieldblock}<div data-fieldname="Email" class="rnr-field style1 {$fielddispclass_Email}">
+  <span class="rnr-label">{BEGIN Email_label}{$label student Email}{END Email_label}</span>
+  <span class="rnr-control style3">{$Email_editcontrol}</span>
+</div>
+{END Email_fieldblock}
+	{BEGIN MobileNumber_fieldblock}<div data-fieldname="MobileNumber" class="rnr-field style1 {$fielddispclass_MobileNumber}">
+  <span class="rnr-label">{BEGIN MobileNumber_label}{$label student MobileNumber}{END MobileNumber_label}</span>
+  <span class="rnr-control style3">{$MobileNumber_editcontrol}</span>
+</div>
+{END MobileNumber_fieldblock}
+	{BEGIN Status_fieldblock}<div data-fieldname="Status" class="rnr-field style1 {$fielddispclass_Status}">
+  <span class="rnr-label">{BEGIN Status_label}{$label student Status}{END Status_label}</span>
+  <span class="rnr-control style3">{$Status_editcontrol}</span>
+</div>
+{END Status_fieldblock}
+	{BEGIN OutDate_fieldblock}<div data-fieldname="OutDate" class="rnr-field style1 {$fielddispclass_OutDate}">
+  <span class="rnr-label">{BEGIN OutDate_label}{$label student OutDate}{END OutDate_label}</span>
+  <span class="rnr-control style3">{$OutDate_editcontrol}</span>
+</div>
 {END OutDate_fieldblock}
-			<TR class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
-                <TD class=runner-cc colSpan=2>{$TabGroup Schooling1}&nbsp; 
-                </TD>
-                <TD class=runner-cr></TD></TR>
-              {BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-brickcontents" colSpan=2><SPAN id=required_block{$id}><IMG alt=bullet src="images/icon_required.gif"> - Required field </SPAN></TD>
-                <TD class="runner-cc runner-brickcontents"></TD>
-                <TD class=runner-cr></TD></TR>
-              {END legend}<TR 
-              class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}"><TD class=runner-cl></TD>
-                <TD class="runner-cc runner-brickcontents" colSpan=2>{BEGIN save_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$savebutton_attrs}>Save</A> 
-                  </SPAN>{END save_button}{BEGIN reset_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$resetbutton_attrs}>Reset</A> 
-                  </SPAN>{END reset_button}{BEGIN prev_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$prevbutton_attrs}>&nbsp;&lt;&lt;&lt;&nbsp;</A> </SPAN>{END prev_button}{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Back to 
-                  list</A> </SPAN>{END back_button}{BEGIN next_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$nextbutton_attrs}>&nbsp;&gt;&gt;&gt;&nbsp;</A> 
-                </SPAN>{END next_button}</TD>
-                <TD class="runner-cc runner-brickcontents"></TD>
-                <TD class=runner-cr></TD></TR>
-              <TR class="{$cfooterclass_fields}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-                <TD class=runner-cc></TD>
-                <TD class=runner-cc></TD>
-                <TD class=runner-cc></TD>
-                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_fields}</TD>
-          <TD class=runner-cr></TD></TR>
-        <TR class="{$cfooterclass_edit}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
-          <TD class=runner-cc></TD>
-          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_edit}{BEGIN container_details}<table class="runner-c runner-c-details" cellpadding="0" ><tr class="{$cheaderclass_details}"><td class="runner-cl"><img src="images/spacer.gif"></td>
-<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</td>
 </tr>
-
-{BEGIN detail_tables}<tr  class="runner-row style1 runner-b-editdetails {$brickclass_editdetails}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" >{$displayDetailTable_student_course}
-		{$displayDetailTable_student_course_payment_schedule}
-	</td><td class="runner-cr"></td></tr>{END detail_tables}
-
-
-<tr class="{$cfooterclass_details}"><td class="runner-cl"><img src="images/spacer.gif"></td>
-<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+		<tr>
+	<td colspan="2">
+		<div class="rnr-field">
+		{$TabGroup Schooling1}&nbsp;		
+		</div>
+	</td>
 </tr>
-</table>
+		
+				
+				
+</table></div>
+
+
+{BEGIN editbuttons}<div  class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}<a href="#" class="rnr-button  {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN save_button}<a href="#" class="rnr-button main" {$savebutton_attrs}>Save</a>
+{END save_button}
+{BEGIN reset_button}<a href="#" class="rnr-button" {$resetbutton_attrs}>Reset</a>
+{END reset_button}
+{BEGIN back_button}<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN view_page_button}<a href="#" class="rnr-button" {$view_page_button_attrs}>View</a>
+{END view_page_button}
+</div>
+</div>{END editbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_details} rnr-wrapper rnr-cbw-details">
+
+{BEGIN container_details}<div class="rnr-c rnr-cv rnr-c-details">
+
+{BEGIN detail_tables}{BEGIN details_student_course}<div class="rnr-cw-detailsstudent_course rnr-s-empty aslinks {$pageStyleName}">
+<div class="rnr-c rnr-cv rnr-c-detailsstudent_course rnr-c-details">
+<div class="rnr-brickcontents style1 rnr-b-editdetailsstudent_course rnr-b-editdetails">
+
+	<div class="rnr-dcaption">
+		Student Course
+	</div>
+	{$displayDetailTable_student_course}
+</div>
+</div>
+</div>
+	{END details_student_course}
+		{BEGIN details_student_course_payment_schedule}<div class="rnr-cw-detailsstudent_course_payment_schedule rnr-s-empty aslinks {$pageStyleName}">
+<div class="rnr-c rnr-cv rnr-c-detailsstudent_course_payment_schedule rnr-c-details">
+<div class="rnr-brickcontents style1 rnr-b-editdetailsstudent_course_payment_schedule rnr-b-editdetails">
+
+	<div class="rnr-dcaption">
+		Student Course Payment Schedule
+	</div>
+	{$displayDetailTable_student_course_payment_schedule}
+</div>
+</div>
+</div>
+	{END details_student_course_payment_schedule}
+	{END detail_tables}
+
+
+</div>
 {END container_details}
 
+</div>
 
-				</TD></TR>
-  <TR class=runner-body><TD class="runner-left {$blockclass_left}"></TD>
-    <TD class="runner-center {$blockclass_center}"></TD>
-    <TD class="runner-right {$blockclass_right}"></TD></TR>
-  <TR class=runner-footer><TD class=runner-bottom 
-colSpan=3><!--%%bottom%%--></TD></TR></TABLE>{$footer}{END body} </BODY></HTML>
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>
