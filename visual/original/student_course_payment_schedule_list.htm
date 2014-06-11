@@ -342,15 +342,15 @@
 									</th>
 									{END ScheduleDate_fieldheadercolumn}
 
-																	{BEGIN PaymentHeadID_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$PaymentHeadID_class}">
-									{BEGIN PaymentHeadID_fieldheader}
-																				<span {$PaymentHeadID_orderlinkattrs}>
-											{$label student_course_payment_schedule PaymentHeadID}
+																	{BEGIN PaymentHead_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$PaymentHead_class}">
+									{BEGIN PaymentHead_fieldheader}
+																				<span {$PaymentHead_orderlinkattrs}>
+											{$label student_course_payment_schedule PaymentHead}
 										</span>
-									{END PaymentHeadID_fieldheader}
+									{END PaymentHead_fieldheader}
 									</th>
-									{END PaymentHeadID_fieldheadercolumn}
+									{END PaymentHead_fieldheadercolumn}
 
 																	{BEGIN StudentCourseID_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$StudentCourseID_class}">
@@ -473,11 +473,11 @@
 	</td>
 {END ScheduleDate_fieldcolumn}
 
-	{BEGIN PaymentHeadID_fieldcolumn}
-	<td class="{$PaymentHeadID_class}" {$PaymentHeadID_style} {$recordattrs}>
-		{$PaymentHeadID_value}
+	{BEGIN PaymentHead_fieldcolumn}
+	<td class="{$PaymentHead_class}" {$PaymentHead_style} {$recordattrs}>
+		{$PaymentHead_value}
 	</td>
-{END PaymentHeadID_fieldcolumn}
+{END PaymentHead_fieldcolumn}
 
 	{BEGIN StudentCourseID_fieldcolumn}
 	<td class="{$StudentCourseID_class}" {$StudentCourseID_style} {$recordattrs}>

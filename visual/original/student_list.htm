@@ -180,6 +180,31 @@
 {END newrecord_controls_block}
 
 
+{BEGIN record_controls_block}
+<div  class="style1 rnr-bl rnr-b-recordcontrol {$brickclass_recordcontrol}">{BEGIN widhtSelected}
+<span class="rnr-buttons-group">
+<a class="rnr-button {$withSelectedClass}" href="#" id="selectButtonsToggler{$id}">With selected...</a>
+<ul class="rnr-list" id="selectButtonsGroup{$id}">
+
+	
+		{BEGIN deleteselected_link}
+<li>
+		<a href="#" class="rnr-button link" {$deleteselectedlink_attrs} {$deleteselectedlink_span}>Delete</a>
+</li>
+	{END deleteselected_link}
+
+		{BEGIN exportselected_link}
+<li>
+		<a href="#" class="rnr-button link" {$exportselectedlink_attrs} {$exportselectedlink_span}>Export</a>
+</li>
+	{END exportselected_link}
+
+	</ul>
+</span>
+{END widhtSelected}
+	</div>
+{END record_controls_block}
+
 
 {BEGIN more_list}
 <div  class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}"><span class="rnr-buttons-group">
@@ -193,6 +218,11 @@
 </li>
 {END asearch_link}
 
+{BEGIN export_link}
+<li>
+	<a target="_blank" href="student_export.php" class="rnr-button link" {$exportlink_attrs}>Export results</a>
+</li>
+{END export_link}
 
 </ul>
 {END moreButtons}
@@ -269,11 +299,26 @@
 									<th iEditCont="all">&nbsp;</th>
 									{END listIcons_column}	
 
-									
+																		{BEGIN checkbox_column}
+									<th class="rnr-bc">
+										<input type="checkbox" {$checkboxheader_attrs}>
+									</th>
+									{END checkbox_column}
+
 																		{BEGIN student_dtable_column}
 									<th >&nbsp;</th>
 									{END student_dtable_column}
-																										{BEGIN FirstName_fieldheadercolumn}
+																										{BEGIN EnrollmentNumber_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$EnrollmentNumber_class}">
+									{BEGIN EnrollmentNumber_fieldheader}
+																				<span {$EnrollmentNumber_orderlinkattrs}>
+											{$label student EnrollmentNumber}
+										</span>
+									{END EnrollmentNumber_fieldheader}
+									</th>
+									{END EnrollmentNumber_fieldheadercolumn}
+
+																	{BEGIN FirstName_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$FirstName_class}">
 									{BEGIN FirstName_fieldheader}
 																				<span {$FirstName_orderlinkattrs}>
@@ -292,16 +337,6 @@
 									{END LastName_fieldheader}
 									</th>
 									{END LastName_fieldheadercolumn}
-
-																	{BEGIN EnrollmentNumber_fieldheadercolumn}
-									<th class="rnr-gridfieldlabel {$EnrollmentNumber_class}">
-									{BEGIN EnrollmentNumber_fieldheader}
-																				<span {$EnrollmentNumber_orderlinkattrs}>
-											{$label student EnrollmentNumber}
-										</span>
-									{END EnrollmentNumber_fieldheader}
-									</th>
-									{END EnrollmentNumber_fieldheadercolumn}
 
 																	{BEGIN MobileNumber_fieldheadercolumn}
 									<th class="rnr-gridfieldlabel {$MobileNumber_class}">
@@ -359,7 +394,14 @@
 									</td>	
 									{END listIcons_column}	
 
-									
+																		{BEGIN checkbox_column}
+									<td class="rnr-bc" iEditCont="checkBox" {$rowstyle} {$recordattrs}>
+									{BEGIN checkbox}
+									<input type="checkbox" {$checkbox_attrs}>
+									{END checkbox}
+									</td>
+									{END checkbox_column}
+
 																		{BEGIN student_dtable_column}
 									<td class="rnr-nowrap" {$rowstyle} {$recordattrs}>
 									{BEGIN student_course_dtable_link}
@@ -392,7 +434,13 @@
 																		</td>
 									{END student_dtable_column}
 
-										{BEGIN FirstName_fieldcolumn}
+										{BEGIN EnrollmentNumber_fieldcolumn}
+	<td class="{$EnrollmentNumber_class}" {$EnrollmentNumber_style} {$recordattrs}>
+		{$EnrollmentNumber_value}
+	</td>
+{END EnrollmentNumber_fieldcolumn}
+
+	{BEGIN FirstName_fieldcolumn}
 	<td class="{$FirstName_class}" {$FirstName_style} {$recordattrs}>
 		{$FirstName_value}
 	</td>
@@ -403,12 +451,6 @@
 		{$LastName_value}
 	</td>
 {END LastName_fieldcolumn}
-
-	{BEGIN EnrollmentNumber_fieldcolumn}
-	<td class="{$EnrollmentNumber_class}" {$EnrollmentNumber_style} {$recordattrs}>
-		{$EnrollmentNumber_value}
-	</td>
-{END EnrollmentNumber_fieldcolumn}
 
 	{BEGIN MobileNumber_fieldcolumn}
 	<td class="{$MobileNumber_class}" {$MobileNumber_style} {$recordattrs}>

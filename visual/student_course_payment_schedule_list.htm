@@ -1,142 +1,505 @@
-<!DOCTYPE html>
-<HTML {$html_attrs}><HEAD> 
-<META http-equiv="X-UA-Compatible" content="IE=Edge"> <TITLE>{$pagetitle}</TITLE> 
-<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
-<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} 
-<META name="GENERATOR" content="MSHTML 10.00.9200.16736"></HEAD> 
-<BODY class="{$stylename} function-list" {$bodyattrs}>{BEGIN body}
-{$header} 
-<DIV class="rnr-page">
-<DIV class="rnr-top {$blockclass_top}">
-{BEGIN container_master}
-<DIV class="rnr-c rnr-ch rnr-c-master">
-{BEGIN mastertable_block}<DIV class="style1 rnr-bl rnr-b-masterinfo {$brickclass_masterinfo}">{$showmasterfile} <A class="runner-link" {$backtomasterlink_attrs}><B>Back to {$backtomasterlink_caption}</B> </A></DIV>
-{END mastertable_block}<DIV class="rnr-hfiller"></DIV></DIV>{END container_master}
-{BEGIN container_toplinks}
-<DIV class="rnr-c rnr-ch rnr-c-toplinks">
-<DIV class="rnr-hfiller"></DIV>
-{BEGIN security_block}<DIV class="style1 rnr-br rnr-b-loggedas {$brickclass_loggedas}">{BEGIN loggedas_message}<SPAN>Logged on as&nbsp;<B>{$username}</B>&nbsp;</SPAN> {END loggedas_message}{BEGIN guestloginbutton}<SPAN><A class="rnr-button" href="#" {$guestloginlink_attrs}>Login</A> 
-</SPAN> {END guestloginbutton}{BEGIN logoutbutton}<A class="rnr-button" href="#" {$logoutlink_attrs}>Log out</A> {END logoutbutton}{BEGIN adminarea_link}<A class="rnr-button" href="admin_rights_list.php" {$adminarealink_attrs}>Admin 
-Area</A> {END adminarea_link}{BEGIN changepwd_link}<A class="rnr-button" href="#" {$changepwdlink_attrs}>Change password</A> {END changepwd_link}</DIV>{END security_block}</DIV>{END container_toplinks}
-{BEGIN container_hmenu}
-<DIV class="rnr-c rnr-ch rnr-c-hmenu">
-{BEGIN searchform_block}<DIV class="style1 rnr-bl rnr-b-search {$brickclass_search}"><SPAN>{BEGIN searchform_text}<INPUT type="text" size="25" {$searchfor_attrs}>{END searchform_text} 
-{BEGIN searchform_search}<A class="rnr-button img" href="#" data-icon="search" {$searchbutton_attrs}></A> {END searchform_search}{BEGIN searchform_showall}<A class="rnr-button" href="#" {$showAllCont_attrs} {$showallbutton_attrs}>Show all</A> {END searchform_showall}</SPAN> </DIV>
-{END searchform_block}{BEGIN searchformbuttons_block}<DIV class="style1 rnr-bl rnr-b-search_buttons {$brickclass_search_buttons}">{BEGIN searchPanelTopButtons}<SPAN><A class="rnr-button img" id="showSrchWin{$id}" href="#" data-icon="panelfloat" {$showHideSearchWin_attrs}></A> <A class="rnr-button img" id="showOptPanel{$id}" href="#" data-icon="paneldown" {$showHideSearchPanel_attrs}></A> </SPAN> {END searchPanelTopButtons}</DIV>
-{END searchformbuttons_block}{BEGIN searchsaving_block}<DIV class="style1 rnr-bl rnr-b-search_saving_buttons {$brickclass_search_saving_buttons}"></DIV>
-{END searchsaving_block}<DIV class="rnr-hfiller"></DIV></DIV>{END container_hmenu}</DIV>
-<DIV class="rnr-middle">
-<DIV class="rnr-left {$blockclass_left}">
-{BEGIN container_left}
-<DIV class="rnr-c rnr-cv rnr-c-left">
-{BEGIN menu_block}{$menu main}{END menu_block}{BEGIN searchPanel}<DIV class="rnr-brickcontents style1 rnr-b-searchpanel {$brickclass_searchpanel}">
-<DIV class="searchPanelContainer">
-<DIV class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
-<DIV class="srchCritTop" style="display: none;">	Criteria:&nbsp; <INPUT name="srchType" class="rnr-radio-button" type="radio" {$all_checkbox}>&nbsp;{BEGIN all_checkbox_label}<SPAN>all</SPAN>{END all_checkbox_label}	&nbsp;&nbsp;&nbsp;<INPUT name="srchType" class="rnr-radio-button" type="radio" {$any_checkbox}>&nbsp;{BEGIN any_checkbox_label}<SPAN>any</SPAN> 
-{END any_checkbox_label}</DIV>
-<DIV class="addOption"><SPAN class="rnr-buttons-group"><A class="rnr-button" id="showHideControlChooseMenu{$id}" href="#" {$showHideCtrls_attrs}>Add 
-field</A> </SPAN> <A class="rnr-button" id="showHideSearchType{$id}" href="#" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</A> </DIV>
-<TABLE class="controlsBlock {$controls_block_class}">
-  {BEGIN searchCtrlBlock}<TBODY>
-  <TR class="srchPanelRow" {$filterRow_attrs}>
-    <TD class="srchPanelCell">{$delCtrlButt}</TD>
-    <TD class="srchPanelCell">{$fLabel}:&nbsp;</TD>
-    <TD class="srchPanelCell srchPanelCell2">
-      <DIV class="rnr-searchtype">{$searchtype}</DIV>
-      <DIV class="rnr-searchcontrol">{$searchcontrol}</DIV>
-      <DIV class="rnr-searchcontrol">{$searchcontrol1}</DIV></TD></TR></TBODY>{END searchCtrlBlock}</TABLE>
-<DIV align="left" class="bottomSearchButt" {$bottomSearchButt_attrs}><A class="rnr-button" id="searchButton{$id}" href="#" {$searchbutton_attrs}>Search</A> 
-</DIV></DIV></DIV></DIV>{END searchPanel}</DIV>{END container_left}</DIV>
-<DIV class="rnr-center {$blockclass_center}">
-{BEGIN container_recordcontrols}
-<DIV class="rnr-c rnr-ch rnr-c-recordcontrols">
-{BEGIN newrecord_controls_block}<DIV class="style1 rnr-bl rnr-b-recordcontrols_new {$brickclass_recordcontrols_new}">{BEGIN add_link}<A class="rnr-button" href="student_course_payment_schedule_add.php" {$addlink_attrs}>Add new</A> {END add_link}<A class="rnr-button button" id="receive_payment1" href="#" typeid="ib"> 
-Receive Payment </A> </DIV>
-{END newrecord_controls_block}{BEGIN record_controls_block}<DIV class="style1 rnr-bl rnr-b-recordcontrol {$brickclass_recordcontrol}">{BEGIN widhtSelected}<SPAN class="rnr-buttons-group"><A class="rnr-button {$withSelectedClass}" id="selectButtonsToggler{$id}" href="#">With selected...</A> 
-<UL class="rnr-list" id="selectButtonsGroup{$id}">
-  {BEGIN deleteselected_link}<LI><A class="rnr-button link" href="#" {$deleteselectedlink_attrs} {$deleteselectedlink_span}>Delete</A></LI>
-  {END deleteselected_link}{BEGIN exportselected_link}<LI><A class="rnr-button link" href="#" {$exportselectedlink_attrs} {$exportselectedlink_span}>Export</A></LI>
-  {END exportselected_link}{BEGIN printselected_link}<LI><A class="rnr-button link" href="#" {$printselectedlink_attrs} {$printselectedlink_span}>Print</A></LI>{END printselected_link}</UL></SPAN> 
-{END widhtSelected}</DIV>
-{END record_controls_block}{BEGIN more_list}<DIV class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}"><SPAN class="rnr-buttons-group">{BEGIN moreButtons}<A class="rnr-button" id="extraButtonsToggler{$id}" href="#">More...</A> 
-<UL class="rnr-list rnr-buttons-group" id="extraButtonsGroup{$id}">
-  {BEGIN print_link}<LI><A class="rnr-button link" href="student_course_payment_schedule_print.php?{$crosstable_attrs}" target="_blank" {$printlink_attrs}>Print this 
-  page</A></LI>
-  {END print_link}{BEGIN printall_link}<LI><A class="rnr-button link" href="student_course_payment_schedule_print.php?all=1&amp;{$crosstable_attrs}" target="_blank" {$printalllink_attrs}>Print all 
-  pages</A></LI>
-  {END printall_link}{BEGIN asearch_link}<LI><A class="rnr-button link" href="student_course_payment_schedule_search.php" {$advsearchlink_attrs}>Advanced search</A></LI>
-  {END asearch_link}{BEGIN export_link}<LI><A class="rnr-button link" href="student_course_payment_schedule_export.php" target="_blank" {$exportlink_attrs}>Export 
-  results</A></LI>{END export_link}</UL>{END moreButtons}</SPAN></DIV>
-{END more_list}<DIV class="rnr-hfiller"></DIV></DIV>{END container_recordcontrols}
-{BEGIN container_message}
-<DIV class="rnr-c rnr-ch rnr-c-message">
-{BEGIN message_block}<DIV class="style1 rnr-bc rnr-b-message {$brickclass_message}">
-<DIV class="rnr-message">{$message}</DIV></DIV>{END message_block}</DIV>{END container_message}
-{BEGIN container_pagination}
-<DIV class="rnr-c rnr-ch rnr-multialign rnr-c-pagination">
-{BEGIN pagination_block}<DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</DIV>
-{END pagination_block}<DIV class="rnr-leftbricks">
-{BEGIN details_block}<DIV class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}"><SPAN {$details_attrs}>	Details found: 
-<B><SPAN class="rnr-details_found_count">{$records_found}</SPAN></B> </SPAN> 
-</DIV>{END details_block}</DIV>
-<DIV class="rnr-rightbricks">
-{BEGIN pages_block}<DIV class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}"><SPAN {$pages_attrs}>	Page <B>{$page}</B> of <B>{$maxpages}</B> </SPAN> </DIV>
-{END pages_block}{BEGIN recordspp_block}<DIV class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}"><SPAN id="recordspp_block{$id}" name="recordspp_block{$id}">	Records 
-Per Page:&nbsp;{$recsPerPage} </SPAN>	</DIV>{END recordspp_block}</DIV></DIV>{END container_pagination}
-{BEGIN container_grid}
-{BEGIN grid_block}<TABLE class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0">
-  <THEAD>{BEGIN grid_header}
-  <TR class="rnr-toprow style1 {$gridHeader_class}">{BEGIN record_header}
-    {BEGIN listIcons_column}<TH ieditcont="all">&nbsp;</TH>
-    {END listIcons_column}{BEGIN checkbox_column}<TH class="rnr-bc"><INPUT type="checkbox" {$checkboxheader_attrs}> </TH>
-    {END checkbox_column}{BEGIN ScheduleDate_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$ScheduleDate_class}">{BEGIN ScheduleDate_fieldheader}<SPAN {$ScheduleDate_orderlinkattrs}>{$label student_course_payment_schedule ScheduleDate} </SPAN> {END ScheduleDate_fieldheader}</TH>
-    {END ScheduleDate_fieldheadercolumn}{BEGIN PaymentHeadID_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$PaymentHeadID_class}">{BEGIN PaymentHeadID_fieldheader}<SPAN {$PaymentHeadID_orderlinkattrs}>{$label student_course_payment_schedule PaymentHeadID} </SPAN> {END PaymentHeadID_fieldheader}</TH>
-    {END PaymentHeadID_fieldheadercolumn}{BEGIN StudentCourseID_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$StudentCourseID_class}">{BEGIN StudentCourseID_fieldheader}<SPAN {$StudentCourseID_orderlinkattrs}>{$label student_course_payment_schedule StudentCourseID} </SPAN> {END StudentCourseID_fieldheader}</TH>
-    {END StudentCourseID_fieldheadercolumn}{BEGIN Description_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Description_class}">{BEGIN Description_fieldheader}<SPAN {$Description_orderlinkattrs}>{$label student_course_payment_schedule Description} </SPAN> {END Description_fieldheader}</TH>
-    {END Description_fieldheadercolumn}{BEGIN Fees_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Fees_class}">
-      <P align="right">{BEGIN Fees_fieldheader}<SPAN {$Fees_orderlinkattrs}>{$label student_course_payment_schedule Fees} </SPAN> {END Fees_fieldheader}</P></TH>
-    {END Fees_fieldheadercolumn}{BEGIN ServiceTax_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$ServiceTax_class}">
-      <P align="right">{BEGIN ServiceTax_fieldheader}<SPAN {$ServiceTax_orderlinkattrs}>{$label student_course_payment_schedule ServiceTax} </SPAN> {END ServiceTax_fieldheader}</P></TH>
-    {END ServiceTax_fieldheadercolumn}{BEGIN Total_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Total_class}">
-      <P align="right">{BEGIN Total_fieldheader}<SPAN {$Total_orderlinkattrs}>{$label student_course_payment_schedule Total} </SPAN> {END Total_fieldheader}</P></TH>
-    {END Total_fieldheadercolumn}{BEGIN ReceiptNumber_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$ReceiptNumber_class}">{BEGIN ReceiptNumber_fieldheader}<SPAN {$ReceiptNumber_orderlinkattrs}>{$label student_course_payment_schedule ReceiptNumber} </SPAN> {END ReceiptNumber_fieldheader}</TH>
-    {END ReceiptNumber_fieldheadercolumn}{BEGIN Status_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Status_class}">{BEGIN Status_fieldheader}<SPAN {$Status_orderlinkattrs}>{$label student_course_payment_schedule Status} 
-      </SPAN> {END Status_fieldheader}</TH>
-    {END Status_fieldheadercolumn}<TD class="runner-cc runner-clast"></TD>
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-list" {$bodyattrs}>
+	{BEGIN body}{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_master}<div class="rnr-c rnr-ch rnr-c-master">
+
+{BEGIN mastertable_block}<div  class="style1 rnr-bl rnr-b-masterinfo {$brickclass_masterinfo}">{$showmasterfile}
+<a class="runner-link" {$backtomasterlink_attrs}>
+	<b>Back to {$backtomasterlink_caption}</b>
+</a></div>
+{END mastertable_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_master}
+
+
+
+{BEGIN container_toplinks}<div class="rnr-c rnr-ch rnr-c-toplinks">
+<div class="rnr-hfiller"></div>
+{BEGIN security_block}<div  class="style1 rnr-br rnr-b-loggedas {$brickclass_loggedas}">{BEGIN loggedas_message}<span>Logged on as&nbsp;<b>{$username}</b>&nbsp;</span> 
+{END loggedas_message}
+{BEGIN guestloginbutton}<span>
+<a href="#" class="rnr-button" {$guestloginlink_attrs}>Login</a>
+</span>
+{END guestloginbutton}
+{BEGIN logoutbutton}<a href="#" class="rnr-button" {$logoutlink_attrs}>Log out</a>
+{END logoutbutton}
+{BEGIN adminarea_link}<a href="admin_rights_list.php" class="rnr-button" {$adminarealink_attrs}>Admin Area</a>
+{END adminarea_link}
+
+{BEGIN changepwd_link}<a href="#" class="rnr-button" {$changepwdlink_attrs}>Change password</a>
+{END changepwd_link}
+</div>
+{END security_block}
+
+
+
+</div>
+{END container_toplinks}
+
+
+
+{BEGIN container_hmenu}<div class="rnr-c rnr-ch rnr-c-hmenu">
+
+{BEGIN searchform_block}<div  class="style1 rnr-bl rnr-b-search {$brickclass_search}">	<span>
+		{BEGIN searchform_text}<input type="text" {$searchfor_attrs} size="25">
+		{END searchform_text}
+		{BEGIN searchform_search}<a href="#" class="rnr-button img" data-icon="search" {$searchbutton_attrs}></a>
+		{END searchform_search}
+		{BEGIN searchform_showall}<a href="#" class="rnr-button" {$showAllCont_attrs} {$showallbutton_attrs}>Show all</a>
+		{END searchform_showall}
+	</span>
+</div>
+{END searchform_block}
+
+
+{BEGIN searchformbuttons_block}<div  class="style1 rnr-bl rnr-b-search_buttons {$brickclass_search_buttons}">{BEGIN searchPanelTopButtons}<span>
+	<a href="#" class="rnr-button img" id="showSrchWin{$id}" data-icon="panelfloat" {$showHideSearchWin_attrs}></a>
+	<a href="#" class="rnr-button img" id="showOptPanel{$id}" data-icon="paneldown" {$showHideSearchPanel_attrs}></a>
+</span>
+{END searchPanelTopButtons}
+</div>
+{END searchformbuttons_block}
+
+
+{BEGIN searchsaving_block}<div  class="style1 rnr-bl rnr-b-search_saving_buttons {$brickclass_search_saving_buttons}"></div>
+{END searchsaving_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_hmenu}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+
+{BEGIN container_left}<div class="rnr-c rnr-cv rnr-c-left">
+
+{BEGIN menu_block}{$menu main}
+{END menu_block}
+
+
+{BEGIN searchPanel}<div  class="rnr-brickcontents style1 rnr-b-searchpanel {$brickclass_searchpanel}"><div class="searchPanelContainer">
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" class="rnr-radio-button" {$all_checkbox}>&nbsp;{BEGIN all_checkbox_label}<span>all</span>{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" class="rnr-radio-button" {$any_checkbox}>&nbsp;{BEGIN any_checkbox_label}<span>any</span>{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="rnr-buttons-group">
+			<a href="#" id="showHideControlChooseMenu{$id}" class="rnr-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		
+		<a href="#" id="showHideSearchType{$id}" class="rnr-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+	</div>
+	
+
+	<table class="controlsBlock {$controls_block_class}">
+				{BEGIN searchCtrlBlock}<TBODY>
+  <tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>	
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+				<div class="rnr-searchtype">{$searchtype}</div>
+				<div class="rnr-searchcontrol">{$searchcontrol}</div>
+				<div class="rnr-searchcontrol">{$searchcontrol1}</div>
+			</td>	
+		</tr>
+		</TBODY>{END searchCtrlBlock}
+	</table>	
+
+
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<a href="#" class="rnr-button" id="searchButton{$id}" {$searchbutton_attrs}>Search</a>
+	</div>
+</div>
+
+</div></div>{END searchPanel}
+
+
+
+</div>
+{END container_left}
+
+
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_recordcontrols}<div class="rnr-c rnr-ch rnr-c-recordcontrols">
+
+{BEGIN newrecord_controls_block}<div  class="style1 rnr-bl rnr-b-recordcontrols_new {$brickclass_recordcontrols_new}">		{BEGIN add_link}<a href="student_course_payment_schedule_add.php" class="rnr-button" {$addlink_attrs}>Add new</a>
+	{END add_link}
+
+	
+
+<A class="rnr-button button" id="receive_payment1" href="#" typeid="ib"> 
+Receive Payment </A> </div>
+{END newrecord_controls_block}
+
+
+{BEGIN record_controls_block}<div  class="style1 rnr-bl rnr-b-recordcontrol {$brickclass_recordcontrol}">{BEGIN widhtSelected}<span class="rnr-buttons-group">
+<a class="rnr-button {$withSelectedClass}" href="#" id="selectButtonsToggler{$id}">With selected...</a>
+<ul class="rnr-list" id="selectButtonsGroup{$id}">
+
+	
+		{BEGIN deleteselected_link}<li>
+		<a href="#" class="rnr-button link" {$deleteselectedlink_attrs} {$deleteselectedlink_span}>Delete</a>
+</li>
+	{END deleteselected_link}
+
+		{BEGIN exportselected_link}<li>
+		<a href="#" class="rnr-button link" {$exportselectedlink_attrs} {$exportselectedlink_span}>Export</a>
+</li>
+	{END exportselected_link}
+
+		{BEGIN printselected_link}<li>
+		<a href="#" class="rnr-button link" {$printselectedlink_attrs} {$printselectedlink_span}>Print</a>
+</li>
+	{END printselected_link}
+</ul>
+</span>
+{END widhtSelected}
+	</div>
+{END record_controls_block}
+
+
+{BEGIN more_list}<div  class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}"><span class="rnr-buttons-group">
+{BEGIN moreButtons}<a class="rnr-button" id="extraButtonsToggler{$id}" href="#">More...</a>
+<ul class="rnr-list rnr-buttons-group" id="extraButtonsGroup{$id}">
+{BEGIN print_link}<li>
+	<a target="_blank" href="student_course_payment_schedule_print.php?{$crosstable_attrs}" class="rnr-button link" {$printlink_attrs}>Print this page</a>
+</li>
+{END print_link}
+{BEGIN printall_link}<li>
+	<a target="_blank" href="student_course_payment_schedule_print.php?all=1&amp;{$crosstable_attrs}" class="rnr-button link" {$printalllink_attrs}>Print all pages</a>
+</li>
+{END printall_link}
+
+{BEGIN asearch_link}<li>
+	<a href="student_course_payment_schedule_search.php" class="rnr-button link" {$advsearchlink_attrs}>Advanced search</a>
+</li>
+{END asearch_link}
+
+{BEGIN export_link}<li>
+	<a target="_blank" href="student_course_payment_schedule_export.php" class="rnr-button link" {$exportlink_attrs}>Export results</a>
+</li>
+{END export_link}
+
+</ul>
+{END moreButtons}
+</span></div>
+{END more_list}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_recordcontrols}
+
+
+
+{BEGIN container_message}<div class="rnr-c rnr-ch rnr-c-message">
+
+{BEGIN message_block}<div  class="style1 rnr-bc rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>
+{END message_block}
+
+
+</div>
+{END container_message}
+
+
+
+{BEGIN container_pagination}<div class="rnr-c rnr-ch rnr-multialign rnr-c-pagination">
+
+{BEGIN pagination_block}<div  class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</div>
+{END pagination_block}
+
+<div class="rnr-leftbricks">
+{BEGIN details_block}<div  class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}">	<span {$details_attrs}>
+			Details found: <b><span class="rnr-details_found_count">{$records_found}</span></b>
+	</span>
+</div>
+{END details_block}
+
+</div><div class="rnr-rightbricks">
+{BEGIN pages_block}<div  class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}">	<span {$pages_attrs}>
+		Page <b>{$page}</b> of <b>{$maxpages}</b>
+	</span>
+
+</div>
+{END pages_block}
+
+
+{BEGIN recordspp_block}<div  class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}">	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
+			Records Per Page:&nbsp;{$recsPerPage}
+	</span>	
+</div>
+{END recordspp_block}
+
+</div>
+</div>
+{END container_pagination}
+
+
+
+{BEGIN container_grid}{BEGIN grid_block}<table class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0" >
+						<thead>
+															{BEGIN grid_header}<tr class="rnr-toprow style1 {$gridHeader_class}" >
+									{BEGIN record_header}{BEGIN listIcons_column}<th iEditCont="all">&nbsp;</th>
+									{END listIcons_column}	
+
+																		{BEGIN checkbox_column}<th class="rnr-bc">
+										<input type="checkbox" {$checkboxheader_attrs}>
+									</th>
+									{END checkbox_column}
+
+																																			{BEGIN ScheduleDate_fieldheadercolumn}<th class="rnr-gridfieldlabel {$ScheduleDate_class}">
+									{BEGIN ScheduleDate_fieldheader}<span {$ScheduleDate_orderlinkattrs}>
+											{$label student_course_payment_schedule ScheduleDate}
+										</span>
+									{END ScheduleDate_fieldheader}
+									</th>
+									{END ScheduleDate_fieldheadercolumn}
+
+																	{BEGIN PaymentHead_fieldheadercolumn}<th class="rnr-gridfieldlabel {$PaymentHead_class}">
+									{BEGIN PaymentHead_fieldheader}<span {$PaymentHead_orderlinkattrs}>
+											{$label student_course_payment_schedule PaymentHead}
+										</span>
+									{END PaymentHead_fieldheader}
+									</th>
+									{END PaymentHead_fieldheadercolumn}
+
+																	{BEGIN StudentCourseID_fieldheadercolumn}<th class="rnr-gridfieldlabel {$StudentCourseID_class}">
+									{BEGIN StudentCourseID_fieldheader}<span {$StudentCourseID_orderlinkattrs}>
+											{$label student_course_payment_schedule StudentCourseID}
+										</span>
+									{END StudentCourseID_fieldheader}
+									</th>
+									{END StudentCourseID_fieldheadercolumn}
+
+																	{BEGIN Description_fieldheadercolumn}<th class="rnr-gridfieldlabel {$Description_class}">
+									{BEGIN Description_fieldheader}<span {$Description_orderlinkattrs}>
+											{$label student_course_payment_schedule Description}
+										</span>
+									{END Description_fieldheader}
+									</th>
+									{END Description_fieldheadercolumn}
+
+																	{BEGIN Fees_fieldheadercolumn}<th class="rnr-gridfieldlabel {$Fees_class}">
+									<P align="right">{BEGIN Fees_fieldheader}<span {$Fees_orderlinkattrs}>
+											{$label student_course_payment_schedule Fees}
+										</span>
+									{END Fees_fieldheader}
+									</P></th>
+									{END Fees_fieldheadercolumn}
+
+																	{BEGIN ServiceTax_fieldheadercolumn}<th class="rnr-gridfieldlabel {$ServiceTax_class}">
+									<P align="right">{BEGIN ServiceTax_fieldheader}<span {$ServiceTax_orderlinkattrs}>
+											{$label student_course_payment_schedule ServiceTax}
+										</span>
+									{END ServiceTax_fieldheader}
+									</P></th>
+									{END ServiceTax_fieldheadercolumn}
+
+																	{BEGIN Total_fieldheadercolumn}<th class="rnr-gridfieldlabel {$Total_class}">
+									<P align="right">{BEGIN Total_fieldheader}<span {$Total_orderlinkattrs}>
+											{$label student_course_payment_schedule Total}
+										</span>
+									{END Total_fieldheader}
+									</P></th>
+									{END Total_fieldheadercolumn}
+
+																	{BEGIN ReceiptNumber_fieldheadercolumn}<th class="rnr-gridfieldlabel {$ReceiptNumber_class}">
+									{BEGIN ReceiptNumber_fieldheader}<span {$ReceiptNumber_orderlinkattrs}>
+											{$label student_course_payment_schedule ReceiptNumber}
+										</span>
+									{END ReceiptNumber_fieldheader}
+									</th>
+									{END ReceiptNumber_fieldheadercolumn}
+
+																	{BEGIN Status_fieldheadercolumn}<th class="rnr-gridfieldlabel {$Status_class}">
+									{BEGIN Status_fieldheader}<span {$Status_orderlinkattrs}>
+											{$label student_course_payment_schedule Status}
+										</span>
+									{END Status_fieldheader}
+									</th>
+									{END Status_fieldheadercolumn}
+
+
+									
+									<TD class="runner-cc runner-clast"></TD>
     <TD class="runner-cc runner-clast"></TD>
-    <TH class="rnr-edge">&nbsp;</TH>
-    {BEGIN endrecordheader_block}<TH class="rnr-cs">&nbsp;</TH>{END endrecordheader_block}{END record_header}</TR>{END grid_header}</THEAD>
-  <TBODY>
-  {BEGIN grid_row}<TR class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>{BEGIN grid_record}
-    {BEGIN listIcons_column}<TD class="rnr-cc rnr-bc rnr-icons" ieditcont="all" {$rowstyle} {$recordattrs}>{BEGIN edit_column}{BEGIN edit_link}<A title="Edit" class="rnr-button-img" data-icon="edit" {$editlink_attrs}></A> {END edit_link}{END edit_column}{BEGIN view_column}{BEGIN view_link}<A title="View" class="rnr-button-img" data-icon="view" {$viewlink_attrs}></A> {END view_link}{END view_column}</TD>
-    {END listIcons_column}{BEGIN checkbox_column}<TD class="rnr-bc" ieditcont="checkBox" {$rowstyle} {$recordattrs}>{BEGIN checkbox}<INPUT type="checkbox" {$checkbox_attrs}>{END checkbox} </TD>
-    {END checkbox_column}{BEGIN ScheduleDate_fieldcolumn}<TD class="{$ScheduleDate_class}" {$ScheduleDate_style} {$recordattrs}>{$ScheduleDate_value} </TD>
-    {END ScheduleDate_fieldcolumn}{BEGIN PaymentHeadID_fieldcolumn}<TD class="{$PaymentHeadID_class}" {$PaymentHeadID_style} {$recordattrs}>{$PaymentHeadID_value} </TD>
-    {END PaymentHeadID_fieldcolumn}{BEGIN StudentCourseID_fieldcolumn}<TD class="{$StudentCourseID_class}" {$StudentCourseID_style} {$recordattrs}>{$StudentCourseID_value} </TD>
-    {END StudentCourseID_fieldcolumn}{BEGIN Description_fieldcolumn}<TD class="{$Description_class}" {$Description_style} {$recordattrs}>{$Description_value} </TD>
-    {END Description_fieldcolumn}{BEGIN Fees_fieldcolumn}<TD class="{$Fees_class}" {$Fees_style} {$recordattrs}>
-      <P align="right">{$Fees_value} </P></TD>
-    {END Fees_fieldcolumn}{BEGIN ServiceTax_fieldcolumn}<TD class="{$ServiceTax_class}" {$ServiceTax_style} {$recordattrs}>
-      <P>{$ServiceTax_value} </P></TD>
-    {END ServiceTax_fieldcolumn}{BEGIN Total_fieldcolumn}<TD class="{$Total_class}" {$Total_style} {$recordattrs}>
-      <P>{$Total_value} 
-      </P></TD>
-    {END Total_fieldcolumn}{BEGIN ReceiptNumber_fieldcolumn}<TD class="{$ReceiptNumber_class}" {$ReceiptNumber_style} {$recordattrs}>{$ReceiptNumber_value} </TD>
-    {END ReceiptNumber_fieldcolumn}{BEGIN Status_fieldcolumn}<TD class="{$Status_class}" {$Status_style} {$recordattrs}>{$Status_value} </TD>
-    {END Status_fieldcolumn}<TD class="runner-cc runner-clast {$Status_class}">{BEGIN btnPrintReport}<A href="{$url}" target="_blank"> Print&nbsp;Receipt </A> {END btnPrintReport}</TD>
-    <TD class="rnr-edge" {$recordattrs}>&nbsp;</TD>
-    {BEGIN endrecord_block}<TD class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</TD>{END endrecord_block}{END grid_record}</TR>{END grid_row}</TBODY></TABLE>{END grid_block}{END container_grid}
-{BEGIN container_pagination_bottom}
-<DIV class="rnr-c rnr-ch rnr-multialign rnr-c-pagination_bottom">
-{BEGIN pagination_block}<DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</DIV>
-{END pagination_block}<DIV class="rnr-leftbricks">
-{BEGIN details_block}<DIV class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}"><SPAN {$details_attrs}>	Details found: 
-<B><SPAN class="rnr-details_found_count">{$records_found}</SPAN></B> </SPAN> 
-</DIV>{END details_block}</DIV>
-<DIV class="rnr-rightbricks">
-{BEGIN pages_block}<DIV class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}"><SPAN {$pages_attrs}>	Page <B>{$page}</B> of <B>{$maxpages}</B> </SPAN> </DIV>
-{END pages_block}{BEGIN recordspp_block}<DIV class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}"><SPAN id="recordspp_block{$id}" name="recordspp_block{$id}">	Records 
-Per Page:&nbsp;{$recsPerPage} </SPAN>	</DIV>{END recordspp_block}</DIV></DIV>{END container_pagination_bottom}</DIV>
-<DIV class="rnr-right {$blockclass_right}"></DIV></DIV>
-<DIV class="rnr-bottom {$blockclass_bottom}"></DIV></DIV>{$footer}{END body} 
-</BODY></HTML>
+    <th class="rnr-edge">&nbsp;</th>
+									{BEGIN endrecordheader_block}<th class="rnr-cs">&nbsp;</th>
+									
+									{END endrecordheader_block}
+									
+									{END record_header}
+									
+								</tr>
+								{END grid_header}
+
+						</thead>
+						<tbody>	
+															{BEGIN grid_row}<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+									{BEGIN grid_record}{BEGIN listIcons_column}<td class="rnr-cc rnr-bc rnr-icons" iEditCont="all" {$rowstyle} {$recordattrs}>
+																		{BEGIN edit_column}{BEGIN edit_link}<a class="rnr-button-img" {$editlink_attrs} data-icon="edit" title="Edit"></a>
+									{END edit_link}
+									{END edit_column}
+
+									
+									
+																		{BEGIN view_column}{BEGIN view_link}<a class="rnr-button-img" {$viewlink_attrs} data-icon="view" title="View"></a>
+									{END view_link}
+									{END view_column}
+									</td>	
+									{END listIcons_column}	
+
+																		{BEGIN checkbox_column}<td class="rnr-bc" iEditCont="checkBox" {$rowstyle} {$recordattrs}>
+									{BEGIN checkbox}<input type="checkbox" {$checkbox_attrs}>
+									{END checkbox}
+									</td>
+									{END checkbox_column}
+
+
+										{BEGIN ScheduleDate_fieldcolumn}<td class="{$ScheduleDate_class}" {$ScheduleDate_style} {$recordattrs}>
+		{$ScheduleDate_value}
+	</td>
+{END ScheduleDate_fieldcolumn}
+
+	{BEGIN PaymentHead_fieldcolumn}<td class="{$PaymentHead_class}" {$PaymentHead_style} {$recordattrs}>
+		{$PaymentHead_value}
+	</td>
+{END PaymentHead_fieldcolumn}
+
+	{BEGIN StudentCourseID_fieldcolumn}<td class="{$StudentCourseID_class}" {$StudentCourseID_style} {$recordattrs}>
+		{$StudentCourseID_value}
+	</td>
+{END StudentCourseID_fieldcolumn}
+
+	{BEGIN Description_fieldcolumn}<td class="{$Description_class}" {$Description_style} {$recordattrs}>
+		{$Description_value}
+	</td>
+{END Description_fieldcolumn}
+
+	{BEGIN Fees_fieldcolumn}<td class="{$Fees_class}" {$Fees_style} {$recordattrs}>
+		<P align="right">{$Fees_value}
+	</P></td>
+{END Fees_fieldcolumn}
+
+	{BEGIN ServiceTax_fieldcolumn}<td class="{$ServiceTax_class}" {$ServiceTax_style} {$recordattrs}>
+		<P>{$ServiceTax_value}
+	</P></td>
+{END ServiceTax_fieldcolumn}
+
+	{BEGIN Total_fieldcolumn}<td class="{$Total_class}" {$Total_style} {$recordattrs}>
+		<P>{$Total_value}
+	</P></td>
+{END Total_fieldcolumn}
+
+	{BEGIN ReceiptNumber_fieldcolumn}<td class="{$ReceiptNumber_class}" {$ReceiptNumber_style} {$recordattrs}>
+		{$ReceiptNumber_value}
+	</td>
+{END ReceiptNumber_fieldcolumn}
+
+	{BEGIN Status_fieldcolumn}<td class="{$Status_class}" {$Status_style} {$recordattrs}>
+		{$Status_value}
+	</td>
+{END Status_fieldcolumn}
+
+
+									<TD class="runner-cc runner-clast {$Status_class}">{BEGIN btnPrintReport}<A href="{$url}" target="_blank"> Print&nbsp;Receipt </A> {END btnPrintReport}</TD>
+    <td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+									{BEGIN endrecord_block}<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+									{END endrecord_block}
+																	
+									{END grid_record}
+
+								</tr>
+								{END grid_row}
+															
+						</tbody>
+					</table>
+					
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+
+{BEGIN container_pagination_bottom}<div class="rnr-c rnr-ch rnr-multialign rnr-c-pagination_bottom">
+
+{BEGIN pagination_block}<div  class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</div>
+{END pagination_block}
+
+<div class="rnr-leftbricks">
+{BEGIN details_block}<div  class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}">	<span {$details_attrs}>
+			Details found: <b><span class="rnr-details_found_count">{$records_found}</span></b>
+	</span>
+</div>
+{END details_block}
+
+</div><div class="rnr-rightbricks">
+{BEGIN pages_block}<div  class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}">	<span {$pages_attrs}>
+		Page <b>{$page}</b> of <b>{$maxpages}</b>
+	</span>
+
+</div>
+{END pages_block}
+
+
+{BEGIN recordspp_block}<div  class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}">	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
+			Records Per Page:&nbsp;{$recsPerPage}
+	</span>	
+</div>
+{END recordspp_block}
+
+</div>
+</div>
+{END container_pagination_bottom}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

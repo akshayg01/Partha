@@ -168,17 +168,6 @@
 			</td>	
 		</tr>
 		{END searchCtrlBlock}
-		{BEGIN searchCtrlBlock_PaymentDate}
-		<tr class="srchPanelRow {$filterRow_class_PaymentDate}" {$filterRow_attrs_PaymentDate}>
-						<td class="srchPanelCell srchPanel-delBtn">{$delCtrlButt}</td>	
-			<td class="srchPanelCell">{$label Service_Tax_Collection PaymentDate}:&nbsp;</td>
-			<td class="srchPanelCell srchPanelCell2">
-								<div class="rnr-searchtype">{$searchtype_PaymentDate}</div>
-				<div class="rnr-searchcontrol">{$searchcontrol_PaymentDate}</div>
-								<div class="rnr-searchcontrol">{$searchcontrol1_PaymentDate}</div>
-			</td>	
-		</tr>
-		{END searchCtrlBlock_PaymentDate}
 		{BEGIN searchCtrlBlock_ReceiptNumber}
 		<tr class="srchPanelRow {$filterRow_class_ReceiptNumber}" {$filterRow_attrs_ReceiptNumber}>
 						<td class="srchPanelCell srchPanel-delBtn">{$delCtrlButt}</td>	
@@ -190,6 +179,17 @@
 			</td>	
 		</tr>
 		{END searchCtrlBlock_ReceiptNumber}
+		{BEGIN searchCtrlBlock_PaymentDate}
+		<tr class="srchPanelRow {$filterRow_class_PaymentDate}" {$filterRow_attrs_PaymentDate}>
+						<td class="srchPanelCell srchPanel-delBtn">{$delCtrlButt}</td>	
+			<td class="srchPanelCell">{$label Service_Tax_Collection PaymentDate}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">
+								<div class="rnr-searchtype">{$searchtype_PaymentDate}</div>
+				<div class="rnr-searchcontrol">{$searchcontrol_PaymentDate}</div>
+								<div class="rnr-searchcontrol">{$searchcontrol1_PaymentDate}</div>
+			</td>	
+		</tr>
+		{END searchCtrlBlock_PaymentDate}
 		{BEGIN searchCtrlBlock_PaymentMode}
 		<tr class="srchPanelRow {$filterRow_class_PaymentMode}" {$filterRow_attrs_PaymentMode}>
 						<td class="srchPanelCell srchPanel-delBtn">{$delCtrlButt}</td>	
@@ -291,9 +291,9 @@
 <tr class="rnr-toprow style1">
 
 	  
-<th class="0">{$label Service_Tax_Collection PaymentDate}</th>
-	  
 <th class="0">{$label Service_Tax_Collection ReceiptNumber}</th>
+	  
+<th class="0">{$label Service_Tax_Collection PaymentDate}</th>
 	  
 <th class="0">{$label Service_Tax_Collection PaymentMode}</th>
 	  
@@ -322,9 +322,9 @@
 	<!-------------------------------------  end detail links for row ----------------------------------------->
 
 		  
-	<td class="0" {$recordattrs}>{$PaymentDate_value}</td>
-		  
 	<td class="0" {$recordattrs}>{$ReceiptNumber_value}</td>
+		  
+	<td class="0" {$recordattrs}>{$PaymentDate_value}</td>
 		  
 	<td class="0" {$recordattrs}>{$PaymentMode_value}</td>
 		  
@@ -348,9 +348,9 @@
 {END grid_row}
 <tr class="rnr-toprow style1">
 	  
-<td class="0">{$label Service_Tax_Collection PaymentDate}</td>
-	  
 <td class="0">{$label Service_Tax_Collection ReceiptNumber}</td>
+	  
+<td class="0">{$label Service_Tax_Collection PaymentDate}</td>
 	  
 <td class="0">{$label Service_Tax_Collection PaymentMode}</td>
 	  

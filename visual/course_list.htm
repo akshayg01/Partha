@@ -264,10 +264,17 @@
 									</th>
 									{END Name_fieldheadercolumn}
 
+																	{BEGIN Status_fieldheadercolumn}<th class="rnr-gridfieldlabel {$Status_class}">
+									{BEGIN Status_fieldheader}<span {$Status_orderlinkattrs}>
+											{$label course Status}
+										</span>
+									{END Status_fieldheader}
+									</th>
+									{END Status_fieldheadercolumn}
+
 
 									
-									<TD class="runner-cc runner-clast"></TD>
-          <th class="rnr-edge">&nbsp;</th>
+									<th class="rnr-edge">&nbsp;</th>
 									{BEGIN endrecordheader_block}<th class="rnr-cs">&nbsp;</th>
 									
 									{END endrecordheader_block}
@@ -313,9 +320,13 @@
 	</td>
 {END Name_fieldcolumn}
 
+	{BEGIN Status_fieldcolumn}<td class="{$Status_class}" {$Status_style} {$recordattrs}>
+		{$Status_value}
+	</td>
+{END Status_fieldcolumn}
 
-									<TD class="runner-cc runner-clast {$Name_class}"></TD>
-          <td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+
+									<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
 									{BEGIN endrecord_block}<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
 									{END endrecord_block}
 																	
